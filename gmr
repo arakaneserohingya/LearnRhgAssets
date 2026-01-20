@@ -1,311 +1,570 @@
-import 'package:flutter/material.dart';
 
-final List<Map<String, dynamic>> grammarLessons = [
+[
   {
     "title": "The Rohingya Language: Origins, Development, and Identity",
-    "icon": Icons.history_edu,
+    "icon": "history_edu",
     "content": [
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0The Rohingya language is an Eastern Indo-Aryan language spoken by the Rohingya people of the Arakan (Rakhine) coastal region of Myanmar and throughout a widespread global diaspora. With roots extending back more than two thousand years, the language reflects a layered history of migration, cultural contact, scholarship, and survival. Its modern form carries within it echoes of ancient Indo-Aryan dialects, medieval Islamic influence, and colonial-era transformations while maintaining its own distinctive phonology, grammar, and vocabulary.",
+        "content": "\u00A0\u00A0\u00A0\u00A0The Rohingya language is an Eastern Indo-Aryan language spoken by the Rohingya people of the Arakan (Rakhine) coastal region of Myanmar and throughout a widespread global diaspora. With roots extending back more than two thousand years, the language reflects a layered history of migration, cultural contact, scholarship, and survival. Its modern form carries within it echoes of ancient Indo-Aryan dialects, medieval Islamic influence, and colonial-era transformations while maintaining its own distinctive phonology, grammar, and vocabulary."
       },
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0This chapter provides a comprehensive overview of the Rohingya language: its prehistoric origins, its development across successive historical periods, its interactions with neighboring cultures, and the modern effort to preserve and standardize it through the Hanifi Rohingya script.",
+        "content": "\u00A0\u00A0\u00A0\u00A0This chapter provides a comprehensive overview of the Rohingya language: its prehistoric origins, its development across successive historical periods, its interactions with neighboring cultures, and the modern effort to preserve and standardize it through the Hanifi Rohingya script."
       },
       {
         "type": "timeline",
         "events": [
           {
-            "title":
-                "ANCIENT FOUNDATIONS (1st Millennium BCE – Early Centuries CE)",
-            "description":
-                "The earliest roots of the Rohingya language lie in the spread of Eastern Indo-Aryan speech varieties. These dialects descended from Old Indo-Aryan (Vedic Sanskrit) and evolved independently along the eastern Gangetic and coastal Bengal regions. Over centuries, they transformed into Middle Indo-Aryan forms known as Prakrits. Early dialects emerged along the coastal belt of the Bay of Bengal, encountering Tibeto-Burman and Austroasiatic languages.",
+            "title": "ANCIENT FOUNDATIONS (1st Millennium BCE – Early Centuries CE)",
+            "description": "The earliest roots of the Rohingya language lie in the spread of Eastern Indo-Aryan speech varieties. These dialects descended from Old Indo-Aryan (Vedic Sanskrit) and evolved independently along the eastern Gangetic and coastal Bengal regions. Over centuries, they transformed into Middle Indo-Aryan forms known as Prakrits. Early dialects emerged along the coastal belt of the Bay of Bengal, encountering Tibeto-Burman and Austroasiatic languages."
           },
           {
             "title": "EARLY MEDIEVAL PERIOD (5th–10th Century)",
-            "description":
-                "Eastern Prakrits evolved into Apabhraṃśa and then into proto-regional languages. Coastal Arakan dialects diverged from Chittagonian and proto-Bengali, forming a unique linguistic identity influenced by the local population and geography.",
+            "description": "Eastern Prakrits evolved into Apabhraṃśa and then into proto-regional languages. Coastal Arakan dialects diverged from Chittagonian and proto-Bengali, forming a unique linguistic identity influenced by the local population and geography."
           },
           {
             "title": "ISLAMIC AND PERSIANATE INFLUENCE (10th–15th Century)",
-            "description":
-                "Muslim merchants and Sufi travelers introduced Arabic and Persian vocabulary. Arabic contributed religious terms, while Persian contributed administrative and literary terminology. These influences created a cultural and lexical layer within Rohingya.",
+            "description": "Muslim merchants and Sufi travelers introduced Arabic and Persian vocabulary. Arabic contributed religious terms, while Persian contributed administrative and literary terminology. These influences created a cultural and lexical layer within Rohingya."
           },
           {
             "title": "THE MRAUK-U COSMOPOLITAN ERA (15th–18th Century)",
-            "description":
-                "During the Mrauk-U Kingdom, Arakan became a regional cultural hub. The court employed Persian and Bengali Muslim scholars, poets, and administrators. Rohingya absorbed Persian, Arabic, and Bengali vocabulary, strengthening its linguistic cohesion and cultural identity.",
+            "description": "During the Mrauk-U Kingdom, Arakan became a regional cultural hub. The court employed Persian and Bengali Muslim scholars, poets, and administrators. Rohingya absorbed Persian, Arabic, and Bengali vocabulary, strengthening its linguistic cohesion and cultural identity."
           },
           {
             "title": "BURMESE AND BRITISH RULE (1784–1948)",
-            "description":
-                "Burmese conquest introduced new vocabulary, while British colonial rule introduced English terms and literacy practices. Rohingya was written in multiple scripts: Perso-Arabic, Burmese, and Roman. Fragmented writing traditions slowed literacy but increased adaptability.",
+            "description": "Burmese conquest introduced new vocabulary, while British colonial rule introduced English terms and literacy practices. Rohingya was written in multiple scripts: Perso-Arabic, Burmese, and Roman. Fragmented writing traditions slowed literacy but increased adaptability."
           },
           {
-            "title":
-                "MODERN ERA AND THE HANIFI SCRIPT (20th Century – Present)",
-            "description":
-                "In the 1980s, Maulana Mohammad Hanif and scholars created the Hanifi Rohingya script to represent the language’s phonology accurately. Unicode inclusion in 2019 enabled digital literacy. Today, Rohingya is revitalized globally through schools, digital platforms, and cultural preservation.",
-          },
-        ],
+            "title": "MODERN ERA AND THE HANIFI SCRIPT (20th Century – Present)",
+            "description": "In the 1980s, Maulana Mohammad Hanif and scholars created the Hanifi Rohingya script to represent the language’s phonology accurately. Unicode inclusion in 2019 enabled digital literacy. Today, Rohingya is revitalized globally through schools, digital platforms, and cultural preservation."
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "LINGUISTIC PROFILE",
-        "content":
-            "Rohingya retains core Eastern Indo-Aryan grammar with rich vowel contrasts, aspiration, nasalization, and verb morphology. Vocabulary layers include Indo-Aryan, Arabic, Persian, Urdu, Bengali, Burmese, and English influences.",
+        "content": "Rohingya retains core Eastern Indo-Aryan grammar with rich vowel contrasts, aspiration, nasalization, and verb morphology. Vocabulary layers include Indo-Aryan, Arabic, Persian, Urdu, Bengali, Burmese, and English influences."
       },
       {
         "type": "info_card",
         "title": "TIMELINE SUMMARY",
-        "content":
-            "• 1000–300 BCE: Eastern Indo-Aryan dialects reach Bengal–Arakan coast.\n• 300 BCE–200 CE: Eastern Prakrits develop; early Arakan dialects appear.\n• 200–800 CE: Proto-Rohingya forms from Apabhraṃśa-derived vernaculars.\n• 900–1400 CE: Arabic and Persian influence begins.\n• 1430–1784 CE: Mrauk-U Era: Persianate and Bengali Muslim integration.\n• 1784–1948: Burmese and British rule introduce new vocabulary and literacy forms.\n• 1980s: Hanifi Rohingya script created.\n• 2019: Hanifi Rohingya enters Unicode.\n• Present: Global revitalization, digital literacy, cultural preservation.",
-      },
-    ],
+        "content": "• 1000–300 BCE: Eastern Indo-Aryan dialects reach Bengal–Arakan coast.\n• 300 BCE–200 CE: Eastern Prakrits develop; early Arakan dialects appear.\n• 200–800 CE: Proto-Rohingya forms from Apabhraṃśa-derived vernaculars.\n• 900–1400 CE: Arabic and Persian influence begins.\n• 1430–1784 CE: Mrauk-U Era: Persianate and Bengali Muslim integration.\n• 1784–1948: Burmese and British rule introduce new vocabulary and literacy forms.\n• 1980s: Hanifi Rohingya script created.\n• 2019: Hanifi Rohingya enters Unicode.\n• Present: Global revitalization, digital literacy, cultural preservation."
+      }
+    ]
   },
-
   {
     "title": "Moulana Mufti Muhammad Hanif Ragheb",
-    "icon": Icons.person,
+    "icon": "person",
     "content": [
       {
         "type": "image",
-        "url":
-            "https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/MolanaHanifRageb.png",
+        "url": "[https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/MolanaHanifRageb.png](https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/MolanaHanifRageb.png)"
       },
       {
         "type": "info_card",
         "title": "Early Life & Family",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Moulana Sheikh Allama Muhammad Hanif Ragheb Arkani (may Allah have mercy on him) was born in 1952 CE (1371 AH / 1164 Rohingya) in the village of Firing Daung, northwest of Rathidaung Township, Arakan (Rakhine State). He was the son of Wali Ahmed, grandson of Turab Ali, and great-grandson of Nurud Din. Allah blessed him with nine children: three sons—Professor Hassan Hanif, Professor Emran Hanif, and Professor Ebrahim Hanif—and six daughters. From his early childhood, he showed a natural love for knowledge and a deep sense of piety.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Moulana Sheikh Allama Muhammad Hanif Ragheb Arkani (may Allah have mercy on him) was born in 1952 CE (1371 AH / 1164 Rohingya) in the village of Firing Daung, northwest of Rathidaung Township, Arakan (Rakhine State). He was the son of Wali Ahmed, grandson of Turab Ali, and great-grandson of Nurud Din. Allah blessed him with nine children: three sons—Professor Hassan Hanif, Professor Emran Hanif, and Professor Ebrahim Hanif—and six daughters. From his early childhood, he showed a natural love for knowledge and a deep sense of piety."
       },
       {
         "type": "info_card",
         "title": "Educational Journey",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0His journey of learning began at Qasim al-Ulum Friending School. Later, he studied at Rahmaniyah School under Sheikh Din Muhammad (the martyr) and Sheikh Maulana Abdul Haq, gaining strong knowledge in Arabic grammar. He pursued higher studies at Darul Uloom Miyajanpur, Moin al-Islam Hathazari, and Zamiriyah Qasim al-Ulum Youth University, completing Daurah Hadith in 1977. He qualified as a Mufti in 1981 at Dar al-Iftaa, Karachi. In later years, he was honored to memorize the entire Holy Qur’an with tajweed.",
+        "content": "\u00A0\u00A0\u00A0\u00A0His journey of learning began at Qasim al-Ulum Friending School. Later, he studied at Rahmaniyah School under Sheikh Din Muhammad (the martyr) and Sheikh Maulana Abdul Haq, gaining strong knowledge in Arabic grammar. He pursued higher studies at Darul Uloom Miyajanpur, Moin al-Islam Hathazari, and Zamiriyah Qasim al-Ulum Youth University, completing Daurah Hadith in 1977. He qualified as a Mufti in 1981 at Dar al-Iftaa, Karachi. In later years, he was honored to memorize the entire Holy Qur’an with tajweed."
       },
       {
         "type": "info_card",
         "title": "Father of the Rohingya Script",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Sheikh Muhammad Hanif was a reformer. During his student life, he worked to codify the Rohingya script. In 1982, he created a new writing system with distinct alphabets to preserve the Rohingya language and culture. Today, the Rohingya community proudly has its own written language, taught in schools and learning centers, keeping his vision alive.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Sheikh Muhammad Hanif was a reformer. During his student life, he worked to codify the Rohingya script. In 1982, he created a new writing system with distinct alphabets to preserve the Rohingya language and culture. Today, the Rohingya community proudly has its own written language, taught in schools and learning centers, keeping his vision alive."
       },
       {
         "type": "info_card",
         "title": "Contributions & Authorship",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0He taught in Maungdaw, Akyab, Karachi, and Cox’s Bazar, founding Dar al-Tarbiyah Islamic School (1985) and the Islamic Postgraduate Studies and Research Complex (2002). He authored valuable books in Arabic, Persian, and Urdu, including 'Quiliyat Ragheb', 'Izhar-e-Haqiqat', 'The Call of Truth', and 'The Problem of Arakan and Its Solution'.",
+        "content": "\u00A0\u00A0\u00A0\u00A0He taught in Maungdaw, Akyab, Karachi, and Cox’s Bazar, founding Dar al-Tarbiyah Islamic School (1985) and the Islamic Postgraduate Studies and Research Complex (2002). He authored valuable books in Arabic, Persian, and Urdu, including 'Quiliyat Ragheb', 'Izhar-e-Haqiqat', 'The Call of Truth', and 'The Problem of Arakan and Its Solution'."
       },
       {
         "type": "info_card",
         "title": "Legacy & Character",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Admired for his humility, wisdom, and eloquence, he possessed deep knowledge of Islamic jurisprudence, literature, and poetry. He devoted his life to teaching, issuing fatwas, and guiding the Rohingya people with sincerity.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Admired for his humility, wisdom, and eloquence, he possessed deep knowledge of Islamic jurisprudence, literature, and poetry. He devoted his life to teaching, issuing fatwas, and guiding the Rohingya people with sincerity."
       },
       {
         "type": "info_card",
         "title": "Passing",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Sheikh Muhammad Hanif Ragheb Arkani passed away on Friday, 10 November 2023 (27 Khati Mash 1235 Rohingya) at Dar al-Sunnah University, Cox’s Bazar. His funeral was attended by thousands. He was buried in Safrang, Nowa Farah. His legacy inspires the Rohingya people and the Muslim Ummah. May Allah grant him the highest place in Jannah.",
-      },
-    ],
+        "content": "\u00A0\u00A0\u00A0\u00A0Sheikh Muhammad Hanif Ragheb Arkani passed away on Friday, 10 November 2023 (27 Khati Mash 1235 Rohingya) at Dar al-Sunnah University, Cox’s Bazar. His funeral was attended by thousands. He was buried in Safrang, Nowa Farah. His legacy inspires the Rohingya people and the Muslim Ummah. May Allah grant him the highest place in Jannah."
+      }
+    ]
   },
-
   {
     "title": "Rohingya Alphabets Chart",
-    "icon": Icons.abc,
+    "icon": "abc",
     "content": [
       {
         "type": "text",
-        "content":
-            "The Rohingya alphabet consists of 28 letters, and each letter has its own unique sound and shape. Learning these alphabets is the first and most important step toward reading and writing in the Rohingya language.",
+        "content": "The Rohingya alphabet consists of 28 letters, and each letter has its own unique sound and shape. Learning these alphabets is the first and most important step toward reading and writing in the Rohingya language."
       },
       {
         "type": "text",
-        "content":
-            "Mastering the letters will help learners recognize words, pronounce sounds correctly, and build a strong foundation for further language learning. Therefore, it is recommended to practice each letter carefully until you can read and write them with confidence.",
-      },
+        "content": "Mastering the letters will help learners recognize words, pronounce sounds correctly, and build a strong foundation for further language learning. Therefore, it is recommended to practice each letter carefully until you can read and write them with confidence."
+      }
     ],
     "table": {
-      "mainHeader": {"text": "Alphabet", "direction": "ltr"},
-      // "headers": ["Alphabet"],
+      "mainHeader": {
+        "text": "Alphabet",
+        "direction": "ltr"
+      },
       "rowsDirection": "rtl",
       "rows": [
-        ["𐴀", "𐴁", "𐴂", "𐴃", "𐴄", "𐴅"],
-        ["𐴆", "𐴇", "𐴈", "𐴉", "𐴊", "𐴋"],
-        ["𐴌", "𐴍", "𐴎", "𐴏", "𐴐", "𐴑"],
-        ["𐴒", "𐴓", "𐴔", "𐴕", "𐴖", "𐴗"],
-        ["𐴘", "𐴙", "𐴚", "𐴛"],
-      ],
-    },
+        [
+          "𐴀",
+          "𐴁",
+          "𐴂",
+          "𐴃",
+          "𐴄",
+          "𐴅"
+        ],
+        [
+          "𐴆",
+          "𐴇",
+          "𐴈",
+          "𐴉",
+          "𐴊",
+          "𐴋"
+        ],
+        [
+          "𐴌",
+          "𐴍",
+          "𐴎",
+          "𐴏",
+          "𐴐",
+          "𐴑"
+        ],
+        [
+          "𐴒",
+          "𐴓",
+          "𐴔",
+          "𐴕",
+          "𐴖",
+          "𐴗"
+        ],
+        [
+          "𐴘",
+          "𐴙",
+          "𐴚",
+          "𐴛"
+        ]
+      ]
+    }
   },
-
   {
     "title": "Comparison with Myanmar and English Alphabets",
-    "icon": Icons.compare,
+    "icon": "compare",
     "content": [
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Table below shows some Rohingya letters and their equivalents in Burmese and English.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Table below shows some Rohingya letters and their equivalents in Burmese and English."
       },
       {
         "type": "table",
         "table": {
-          "headers": ["Burmese", "Pronunciation", "Name", "Rohingya Alphabet"],
-          "rows": [
-            ["အ", "Aa", "A", "𐴀"],
-            ["ဘ", "Ba", "B", "𐴁"],
-            ["ပ", "pa", "P", "𐴂"],
-            ["တ", "ta", "T", "𐴃"],
-            ["ထ", "Tha", "Th", "𐴄"],
-            ["ဇ", "Ja", "J", "𐴅"],
-            ["ချ", "Cha", "Ch", "𐴆"],
-            ["ဟ", "Ha", "H", "𐴇"],
-            ["ခ", "Kha", "Kh", "𐴈"],
-            ["ဖ", "Fa", "F", "𐴉"],
-            ["ဒ", "Da", "D", "𐴊"],
-            ["ဓ", "Dha", "Dh", "𐴋"],
-            ["ရ", "Ra", "R", "𐴌"],
-            ["", "Rha", "Rh", "𐴍"],
-            ["ဈ", "Za", "Z", "𐴎"],
-            ["စ", "Sa", "S", "𐴏"],
-            ["ရှ", "Sha", "Sh", "𐴐"],
-            ["က", "Ka", "K", "𐴑"],
-            ["ဂ", "Ga", "G", "𐴒"],
-            ["လ", "La", "L", "𐴓"],
-            ["မ", "Ma", "M", "𐴔"],
-            ["န", "Na", "N", "𐴕"],
-            ["ဝ", "Wa", "W", "𐴖"],
-            ["", "Kinna Wa", "W", "𐴗"],
-            ["ယ", "Ya", "Y", "𐴘"],
-            ["", "Kinna Ya", "Y", "𐴙"],
-            ["င", "Nga", "Ng", "𐴚"],
-            ["", "Nainya", "Ny", "𐴛"],
+          "headers": [
+            "Burmese",
+            "Pronunciation",
+            "Name",
+            "Rohingya Alphabet"
           ],
-        },
+          "rows": [
+            [
+              "အ",
+              "Aa",
+              "A",
+              "𐴀"
+            ],
+            [
+              "ဘ",
+              "Ba",
+              "B",
+              "𐴁"
+            ],
+            [
+              "ပ",
+              "pa",
+              "P",
+              "𐴂"
+            ],
+            [
+              "တ",
+              "ta",
+              "T",
+              "𐴃"
+            ],
+            [
+              "ထ",
+              "Tha",
+              "Th",
+              "𐴄"
+            ],
+            [
+              "ဇ",
+              "Ja",
+              "J",
+              "𐴅"
+            ],
+            [
+              "ချ",
+              "Cha",
+              "Ch",
+              "𐴆"
+            ],
+            [
+              "ဟ",
+              "Ha",
+              "H",
+              "𐴇"
+            ],
+            [
+              "ခ",
+              "Kha",
+              "Kh",
+              "𐴈"
+            ],
+            [
+              "ဖ",
+              "Fa",
+              "F",
+              "𐴉"
+            ],
+            [
+              "ဒ",
+              "Da",
+              "D",
+              "𐴊"
+            ],
+            [
+              "ဓ",
+              "Dha",
+              "Dh",
+              "𐴋"
+            ],
+            [
+              "ရ",
+              "Ra",
+              "R",
+              "𐴌"
+            ],
+            [
+              "",
+              "Rha",
+              "Rh",
+              "𐴍"
+            ],
+            [
+              "ဈ",
+              "Za",
+              "Z",
+              "𐴎"
+            ],
+            [
+              "စ",
+              "Sa",
+              "S",
+              "𐴏"
+            ],
+            [
+              "ရှ",
+              "Sha",
+              "Sh",
+              "𐴐"
+            ],
+            [
+              "က",
+              "Ka",
+              "K",
+              "𐴑"
+            ],
+            [
+              "ဂ",
+              "Ga",
+              "G",
+              "𐴒"
+            ],
+            [
+              "လ",
+              "La",
+              "L",
+              "𐴓"
+            ],
+            [
+              "မ",
+              "Ma",
+              "M",
+              "𐴔"
+            ],
+            [
+              "န",
+              "Na",
+              "N",
+              "𐴕"
+            ],
+            [
+              "ဝ",
+              "Wa",
+              "W",
+              "𐴖"
+            ],
+            [
+              "",
+              "Kinna Wa",
+              "W",
+              "𐴗"
+            ],
+            [
+              "ယ",
+              "Ya",
+              "Y",
+              "𐴘"
+            ],
+            [
+              "",
+              "Kinna Ya",
+              "Y",
+              "𐴙"
+            ],
+            [
+              "င",
+              "Nga",
+              "Ng",
+              "𐴚"
+            ],
+            [
+              "",
+              "Nainya",
+              "Ny",
+              "𐴛"
+            ]
+          ]
+        }
       },
       {
         "type": "richText",
         "content": [
-          {"text": "\n\nNote: ", "bold": true},
           {
-            "text":
-                "\n\u00A0\u00A0\u00A0\u00A0Some Rohingya alphabets have unique sounds that are not found in ",
+            "text": "\n\nNote: ",
+            "bold": true
           },
-          {"text": "English", "bold": true},
-          {"text": " or "},
-          {"text": "Myanmar", "bold": true},
-          {"text": ". For example, the letters "},
-          {"text": "𐴗", "bold": true},
-          {"text": " (Kinnawa) and "},
-          {"text": "𐴙", "bold": true},
           {
-            "text":
-                " (Kinnaya) represent sounds that are distinctly Rohingya and require careful pronunciation practice.",
+            "text": "\n\u00A0\u00A0\u00A0\u00A0Some Rohingya alphabets have unique sounds that are not found in "
           },
-        ],
+          {
+            "text": "English",
+            "bold": true
+          },
+          {
+            "text": " or "
+          },
+          {
+            "text": "Myanmar",
+            "bold": true
+          },
+          {
+            "text": ". For example, the letters "
+          },
+          {
+            "text": "𐴗",
+            "bold": true
+          },
+          {
+            "text": " (Kinnawa) and "
+          },
+          {
+            "text": "𐴙",
+            "bold": true
+          },
+          {
+            "text": " (Kinnaya) represent sounds that are distinctly Rohingya and require careful pronunciation practice."
+          }
+        ]
       },
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Mastering these special letters will help learners speak, read, and understand the Rohingya language more accurately. It is highly recommended that learners listen to native pronunciation, repeat regularly, and practice writing these letters to achieve fluency and confidence.",
-      },
-    ],
+        "content": "\u00A0\u00A0\u00A0\u00A0Mastering these special letters will help learners speak, read, and understand the Rohingya language more accurately. It is highly recommended that learners listen to native pronunciation, repeat regularly, and practice writing these letters to achieve fluency and confidence."
+      }
+    ]
   },
   {
     "title": "Rohingya Vowels",
-    "icon": Icons.audio_file,
+    "icon": "audio_file",
     "content": [
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Just like consonants, vowels play a vital role in the Rohingya language. They help to form meaningful words and ensure correct pronunciation. Without vowels, it would be impossible to read, write, or speak the language accurately.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Just like consonants, vowels play a vital role in the Rohingya language. They help to form meaningful words and ensure correct pronunciation. Without vowels, it would be impossible to read, write, or speak the language accurately."
       },
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Vowels work as the heart of every word, giving life and clarity to spoken and written Rohingya. Therefore, it is essential for learners to recognize, pronounce, and use vowels correctly when building their reading and writing skills.",
-      },
+        "content": "\u00A0\u00A0\u00A0\u00A0Vowels work as the heart of every word, giving life and clarity to spoken and written Rohingya. Therefore, it is essential for learners to recognize, pronounce, and use vowels correctly when building their reading and writing skills."
+      }
     ],
     "table": {
-      "mainHeader": {"text": "Rohingya Vowels", "direction": "ltr"},
-      // "mainHeader": "Rohingya Vowels",
-      // "headers": ["Rohingya Vowel"],
-      "headers": ["Vowel", "Name", "Pronunciation"],
-      "rows": [
-        ["𐴝", "A-for", "Aa (Long A)"],
-        ["𐴞", "I-for", "Ee (Long I)"],
-        ["𐴟", "U-for", "Oo (Long U)"],
-        ["𐴠", "E-for", "Ay (Long E)"],
-        ["𐴡", "O-for", "Oh (Long O)"],
-        ["𐴣", "Nahonna", "Nasal sound (-ng)"],
-        ["𐴤", "Harbai", "Hard 'H' stress"],
-        ["𐴥", "Thela", "Soft stress"],
-        ["𐴦", "Thaana", "Long sound elongator"],
-        ["𐴧", "Tossi", "Doubling (Gemination)"],
+      "mainHeader": {
+        "text": "Rohingya Vowels",
+        "direction": "ltr"
+      },
+      "headers": [
+        "Vowel",
+        "Name",
+        "Pronunciation"
       ],
-    },
+      "rows": [
+        [
+          "𐴝",
+          "A-for",
+          "Aa (Long A)"
+        ],
+        [
+          "𐴞",
+          "I-for",
+          "Ee (Long I)"
+        ],
+        [
+          "𐴟",
+          "U-for",
+          "Oo (Long U)"
+        ],
+        [
+          "𐴠",
+          "E-for",
+          "Ay (Long E)"
+        ],
+        [
+          "𐴡",
+          "O-for",
+          "Oh (Long O)"
+        ],
+        [
+          "𐴣",
+          "Nahonna",
+          "Nasal sound (-ng)"
+        ],
+        [
+          "𐴤",
+          "Harbai",
+          "Hard 'H' stress"
+        ],
+        [
+          "𐴥",
+          "Thela",
+          "Soft stress"
+        ],
+        [
+          "𐴦",
+          "Thaana",
+          "Long sound elongator"
+        ],
+        [
+          "𐴧",
+          "Tossi",
+          "Doubling (Gemination)"
+        ]
+      ]
+    }
   },
   {
     "title": "Rohingya Vowels Pronunciation",
-    "icon": Icons.volume_up,
+    "icon": "volume_up",
     "content": [
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Rohingya vowels are used together with consonants to form complete words and give them proper sound and meaning. Some vowels have short and long forms, which can change the meaning of a word, so learners should pay close attention to correct pronunciation.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Rohingya vowels are used together with consonants to form complete words and give them proper sound and meaning. Some vowels have short and long forms, which can change the meaning of a word, so learners should pay close attention to correct pronunciation."
       },
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Certain vowels, such as Nahonna (𐴣) and Tossi (𐴧), have unique sounds that are not found in other languages except Arabic language. These vowels are an important part of authentic Rohingya pronunciation, and they should be practiced carefully through listening, repeating, and writing exercises.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Certain vowels, such as Nahonna (𐴣) and Tossi (𐴧), have unique sounds that are not found in other languages except Arabic language. These vowels are an important part of authentic Rohingya pronunciation, and they should be practiced carefully through listening, repeating, and writing exercises."
       },
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Mastering the use of vowels will help learners speak more naturally, read fluently, and understand the structure of Rohingya words more clearly.",
-      },
+        "content": "\u00A0\u00A0\u00A0\u00A0Mastering the use of vowels will help learners speak more naturally, read fluently, and understand the structure of Rohingya words more clearly."
+      }
     ],
     "table": {
       "headers": [
         "Pronunciation (Burmese)",
         "Pronunciation (Eng)",
         "Name",
-        "Rohingya Vowel",
+        "Rohingya Vowel"
       ],
       "rows": [
-        ["ာ", "A", "Afor", "𐴝"],
-        ["ိ/ီ", "I", "Ifor", "𐴞"],
-        ["ု/ူ", "U", "Ufor", "𐴟"],
-        ["ေ", "E", "Efor", "𐴠"],
-        ["ော်", "O", "Ofor", "𐴡"],
-        ["င်", "Nasal sound (-ŋ)", "Nahonna", "𐴣"],
-        ["\"ဟ\" သံ", "\"H\" sound", "Harbai", "𐴤"],
-        ["သံတိုး", "Stress sound", "Thela", "𐴥"],
-        ["း", "Long sound", "Thaana", "𐴦"],
-        ["နှစ်ဖွဲတွဲ့", "Double alphabets", "Tossi", "𐴧"],
-      ],
-    },
+        [
+          "ာ",
+          "A",
+          "Afor",
+          "𐴝"
+        ],
+        [
+          "ိ/ီ",
+          "I",
+          "Ifor",
+          "𐴞"
+        ],
+        [
+          "ု/ူ",
+          "U",
+          "Ufor",
+          "𐴟"
+        ],
+        [
+          "ေ",
+          "E",
+          "Efor",
+          "𐴠"
+        ],
+        [
+          "ော်",
+          "O",
+          "Ofor",
+          "𐴡"
+        ],
+        [
+          "င်",
+          "Nasal sound (-ŋ)",
+          "Nahonna",
+          "𐴣"
+        ],
+        [
+          "\"ဟ\" သံ",
+          "\"H\" sound",
+          "Harbai",
+          "𐴤"
+        ],
+        [
+          "သံတိုး",
+          "Stress sound",
+          "Thela",
+          "𐴥"
+        ],
+        [
+          "း",
+          "Long sound",
+          "Thaana",
+          "𐴦"
+        ],
+        [
+          "နှစ်ဖွဲတွဲ့",
+          "Double alphabets",
+          "Tossi",
+          "𐴧"
+        ]
+      ]
+    }
   },
-
   {
     "title": "Rohingya Alphabet Writing System",
-    "icon": Icons.draw,
+    "icon": "draw",
     "content": [
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0The Rohingya script is written from right to left, similar to the Arabic script. There are 28 alphabets (consonants) and 10 vowels in the Rohingya language. Each letter is positioned differently across three horizontal lines: 21 alphabets are written above the middle three lines. 6 alphabets are written within the middle two lines. 1 alphabet is written below the middle two lines.",
+        "content": "\u00A0\u00A0\u00A0\u00A0The Rohingya script is written from right to left, similar to the Arabic script. There are 28 alphabets (consonants) and 10 vowels in the Rohingya language. Each letter is positioned differently across three horizontal lines: 21 alphabets are written above the middle three lines. 6 alphabets are written within the middle two lines. 1 alphabet is written below the middle two lines."
       },
       {
         "type": "text",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Understanding these positions is very important for learning how to write correctly and to maintain the beauty of the Rohingya script.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Understanding these positions is very important for learning how to write correctly and to maintain the beauty of the Rohingya script."
       },
       {
         "type": "vowel_positions_grid",
@@ -314,223 +573,303 @@ final List<Map<String, dynamic>> grammarLessons = [
             "position": "Above middle 3 lines",
             "count": "21 Alphabets",
             "isFullWidth": true,
-            "vowels":
-                "𐴀 𐴁 𐴃 𐴄 𐴅 𐴆 𐴈 𐴋 𐴌 𐴍 𐴎 𐴑 𐴓 𐴔 𐴕 𐴖 𐴗 𐴘 𐴚 𐴛",
-            "color": "#4CAF50",
+            "vowels": "𐴀 𐴁 𐴃 𐴄 𐴅 𐴆 𐴈 𐴋 𐴌 𐴍 𐴎 𐴑 𐴓 𐴔 𐴕 𐴖 𐴗 𐴘 𐴚 𐴛",
+            "color": "#4CAF50"
           },
           {
             "position": "Within middle 2 lines",
             "count": "6 Alphabets",
             "vowels": "𐴂 𐴇 𐴉 𐴊 𐴏 𐴐 𐴒",
-            "color": "#2196F3",
+            "color": "#2196F3"
           },
           {
             "position": "Below middle 2 lines",
             "count": "1 Alphabet",
             "vowels": "𐴙",
-            "color": "#FF9800",
-          },
-        ],
+            "color": "#FF9800"
+          }
+        ]
       },
       {
         "type": "image",
-        "url":
-            "https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/alphabetmiddlethreeline.png",
+        "url": "[https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/alphabetmiddlethreeline.png](https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/alphabetmiddlethreeline.png)"
       },
       {
         "type": "image",
-        "url":
-            "https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/sixalphabet.png",
+        "url": "[https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/sixalphabet.png](https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/sixalphabet.png)"
       },
       {
         "type": "image",
-        "url":
-            "https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/alphabetwrittenbelowmiddletwoline.png",
-      },
-      {
-        "type": "richText",
-        "content": [
-          {"text": "\n\nNote: ", "bold": true},
-          {
-            "text":
-                "\n\u00A0\u00A0\u00A0\u00A0Always pay attention to the position of letters when writing, because a small change in placement can affect readability. Practicing with lined paper will help you master the correct positions of each alphabet. The writing style of Rohingya is elegant and structured, so neat handwriting is highly valued.",
-          },
-        ],
+        "url": "[https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/alphabetwrittenbelowmiddletwoline.png](https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/alphabetwrittenbelowmiddletwoline.png)"
       },
       {
         "type": "richText",
         "content": [
           {
-            "text":
-                "\n\n✍️ Hanifi Rohingya Script: Positional Forms (Initial, Medial, Final)",
-            "bold": true,
+            "text": "\n\nNote: ",
+            "bold": true
           },
-        ],
+          {
+            "text": "\n\u00A0\u00A0\u00A0\u00A0Always pay attention to the position of letters when writing, because a small change in placement can affect readability. Practicing with lined paper will help you master the correct positions of each alphabet. The writing style of Rohingya is elegant and structured, so neat handwriting is highly valued."
+          }
+        ]
+      },
+      {
+        "type": "richText",
+        "content": [
+          {
+            "text": "\n\n✍️ Hanifi Rohingya Script: Positional Forms (Initial, Medial, Final)",
+            "bold": true
+          }
+        ]
       },
       {
         "type": "text",
-        "content":
-            "The Hanifi Rohingya script, while a modern invention, is structurally modeled upon the Arabic script and exhibits a key characteristic of many cursive, abjad-derived writing systems: its letters change shape based on their position within a word. This means that a single Hanifi Rohingya consonant character can have up to four potential forms, though for many letters, the forms are reduced or look visually similar.",
+        "content": "The Hanifi Rohingya script, while a modern invention, is structurally modeled upon the Arabic script and exhibits a key characteristic of many cursive, abjad-derived writing systems: its letters change shape based on their position within a word. This means that a single Hanifi Rohingya consonant character can have up to four potential forms, though for many letters, the forms are reduced or look visually similar."
       },
       {
         "type": "table",
         "table": {
-          "headers": ["Form", "Description", "Function"],
+          "headers": [
+            "Form",
+            "Description",
+            "Function"
+          ],
           "rows": [
             [
               "Isolated",
               "The standalone shape of the letter when it is not connected to any other letter (for example, when written alone or separated by a space).",
-              "Used at the beginning or end of a word if the previous letter does not connect, or if the letter itself does not connect to the next one.",
+              "Used at the beginning or end of a word if the previous letter does not connect, or if the letter itself does not connect to the next one."
             ],
             [
               "Initial",
               "The shape the letter takes when it appears at the beginning of a word or after a non-connecting letter.",
-              "Connects only to the following letter (to the left, since the script is written right-to-left).",
+              "Connects only to the following letter (to the left, since the script is written right-to-left)."
             ],
             [
               "Medial",
               "The shape the letter takes when it is in the middle of a word.",
-              "Connects to both the preceding (right) and following (left) letters.",
+              "Connects to both the preceding (right) and following (left) letters."
             ],
             [
               "Final",
               "The shape the letter takes when it appears at the end of a word, connecting to the letter immediately before it.",
-              "Connects only to the preceding letter (to the right).",
-            ],
-          ],
-        },
+              "Connects only to the preceding letter (to the right)."
+            ]
+          ]
+        }
       },
       {
         "type": "richText",
         "content": [
-          {"text": "\n\nExample: ", "bold": true},
-        ],
+          {
+            "text": "\n\nExample: ",
+            "bold": true
+          }
+        ]
       },
       {
         "type": "table",
         "table": {
-          "headers": ["Character", "Name", "Final", "Medial"],
-          "rows": [
-            ["𐴀", "A", "𐴀", "ـ𐴀ـ"],
-            ["𐴁", "BA", "𐴁𐴢", "ـ𐴁ـ"],
-            ["𐴂", "PA", "𐴂𐴢", "ـ𐴂ـ"],
-            ["𐴃", "TA", "𐴃𐴢", "ـ𐴃ـ"],
-            ["𐴄", "TTA", "𐴄𐴢", "ـ𐴄ـ"],
-            ["𐴅", "JA", "𐴅", "ـ𐴅ـ"],
-            ["𐴆", "CA", "𐴆", "ـ𐴆ـ"],
-            ["𐴇", "HA", "𐴇𐴢", "ـ𐴇ـ"],
-            ["𐴈", "KHA", "𐴈𐴢", "ـ𐴈ـ"],
-            ["𐴉", "FA", "𐴉𐴢", "ـ𐴉ـ"],
-            ["𐴊", "DA", "𐴊𐴢", "ـ𐴊ـ"],
-            ["𐴋", "DDA", "𐴋", "ـ𐴋ـ"],
-            ["𐴌", "RA", "𐴌", "ـ𐴌ـ"],
-            ["𐴍", "RRA", "𐴍", "ـ𐴍ـ"],
-            ["𐴎", "ZA", "𐴎", "ـ𐴎ـ"],
-            ["𐴏", "SA", "𐴏𐴢", "ـ𐴏ـ"],
-            ["𐴐", "SHA", "𐴐𐴢", "ـ𐴐ـ"],
-            ["𐴑", "KA", "𐴑", "ـ𐴑ـ"],
-            ["𐴒", "GA", "𐴒𐴢", "ـ𐴒ـ"],
-            ["𐴓", "LA", "𐴓𐴢", "ـ𐴓ـ"],
-            ["𐴔", "MA", "𐴔", "ـ𐴔ـ"],
-            ["𐴕", "NA", "ـ𐴕", "ـ𐴕ـ"],
-            ["𐴖", "WA", "𐴖𐴢", "ـ𐴖ـ"],
-            ["𐴗", "KINNA WA", "𐴗𐴢", "ـ𐴗ـ"],
-            ["𐴘", "YA", "𐴘", "ـ𐴘ـ"],
-            ["𐴙", "KINNA YA", "𐴙𐴢", "ـ𐴙ـ"],
-            ["𐴚", "NGA", "𐴚", "ـ𐴚ـ"],
-            ["𐴛", "NYA", "𐴛", "ـ𐴛ـ"],
+          "headers": [
+            "Character",
+            "Name",
+            "Final",
+            "Medial"
           ],
-        },
+          "rows": [
+            [
+              "𐴀",
+              "A",
+              "𐴀",
+              "ـ𐴀ـ"
+            ],
+            [
+              "𐴁",
+              "BA",
+              "𐴁𐴢",
+              "ـ𐴁ـ"
+            ],
+            [
+              "𐴂",
+              "PA",
+              "𐴂𐴢",
+              "ـ𐴂ـ"
+            ],
+            [
+              "𐴃",
+              "TA",
+              "𐴃𐴢",
+              "ـ𐴃ـ"
+            ],
+            [
+              "𐴄",
+              "TTA",
+              "𐴄𐴢",
+              "ـ𐴄ـ"
+            ],
+            [
+              "𐴅",
+              "JA",
+              "𐴅",
+              "ـ𐴅ـ"
+            ],
+            [
+              "𐴆",
+              "CA",
+              "𐴆",
+              "ـ𐴆ـ"
+            ],
+            [
+              "𐴇",
+              "HA",
+              "𐴇𐴢",
+              "ـ𐴇ـ"
+            ],
+            [
+              "𐴈",
+              "KHA",
+              "𐴈𐴢",
+              "ـ𐴈ـ"
+            ],
+            [
+              "𐴉",
+              "FA",
+              "𐴉𐴢",
+              "ـ𐴉ـ"
+            ],
+            [
+              "𐴊",
+              "DA",
+              "𐴊𐴢",
+              "ـ𐴊ـ"
+            ],
+            [
+              "𐴋",
+              "DDA",
+              "𐴋",
+              "ـ𐴋ـ"
+            ],
+            [
+              "𐴌",
+              "RA",
+              "𐴌",
+              "ـ𐴌ـ"
+            ],
+            [
+              "𐴍",
+              "RRA",
+              "𐴍",
+              "ـ𐴍ـ"
+            ],
+            [
+              "𐴎",
+              "ZA",
+              "𐴎",
+              "ـ𐴎ـ"
+            ],
+            [
+              "𐴏",
+              "SA",
+              "𐴏𐴢",
+              "ـ𐴏ـ"
+            ],
+            [
+              "𐴐",
+              "SHA",
+              "𐴐𐴢",
+              "ـ𐴐ـ"
+            ],
+            [
+              "𐴑",
+              "KA",
+              "𐴑",
+              "ـ𐴑ـ"
+            ],
+            [
+              "𐴒",
+              "GA",
+              "𐴒𐴢",
+              "ـ𐴒ـ"
+            ],
+            [
+              "𐴓",
+              "LA",
+              "𐴓𐴢",
+              "ـ𐴓ـ"
+            ],
+            [
+              "𐴔",
+              "MA",
+              "𐴔",
+              "ـ𐴔ـ"
+            ],
+            [
+              "𐴕",
+              "NA",
+              "ـ𐴕",
+              "ـ𐴕ـ"
+            ],
+            [
+              "𐴖",
+              "WA",
+              "𐴖𐴢",
+              "ـ𐴖ـ"
+            ],
+            [
+              "𐴗",
+              "KINNA WA",
+              "𐴗𐴢",
+              "ـ𐴗ـ"
+            ],
+            [
+              "𐴘",
+              "YA",
+              "𐴘",
+              "ـ𐴘ـ"
+            ],
+            [
+              "𐴙",
+              "KINNA YA",
+              "𐴙𐴢",
+              "ـ𐴙ـ"
+            ],
+            [
+              "𐴚",
+              "NGA",
+              "𐴚",
+              "ـ𐴚ـ"
+            ],
+            [
+              "𐴛",
+              "NYA",
+              "𐴛",
+              "ـ𐴛ـ"
+            ]
+          ]
+        }
       },
       {
         "type": "richText",
         "content": [
-          {"text": "\n\nWhy the Shapes Change? ", "bold": true},
           {
-            "text":
-                "\n\u00A0\u00A0\u00A0\u00A0The Hanifi Rohingya script is cursive (joined) and written right-to-left (RTL). The change in shape is necessary to create a continuous, flowing line of script:\n\nJoining: When a character connects to the next, a small \"tail\" or connecting line extends from the body of the letter.\n\nCutting Off: When a character is at the end of a joining sequence (the final form), the connecting tail is cut off, and the letter often reverts to its full, independent shape for the termination.",
+            "text": "\n\nWhy the Shapes Change? ",
+            "bold": true
           },
-        ],
-      },
-    ],
+          {
+            "text": "\n\u00A0\u00A0\u00A0\u00A0The Hanifi Rohingya script is cursive (joined) and written right-to-left (RTL). The change in shape is necessary to create a continuous, flowing line of script:\n\nJoining: When a character connects to the next, a small \"tail\" or connecting line extends from the body of the letter.\n\nCutting Off: When a character is at the end of a joining sequence (the final form), the connecting tail is cut off, and the letter often reverts to its full, independent shape for the termination."
+          }
+        ]
+      }
+    ]
   },
-  //             "Medial",
-  //             "The shape the letter takes when it is in the middle of a word.",
-  //             "Connects to both the preceding (right) and following (left) letters.",
-  //           ],
-  //           [
-  //             "Final",
-  //             "The shape the letter takes when it appears at the end of a word, connecting to the letter immediately before it.",
-  //             "Connects only to the preceding letter (to the right).",
-  //           ],
-  //         ],
-  //       },
-  //     },
-
-  //     {
-  //       "type": "richText",
-  //       "content": [
-  //         {"text": "\n\nExample: ", "bold": true},
-  //       ],
-  //     },
-
-  //     {
-  //       "type": "table",
-  //       "table": {
-  //         "headers": ["Character", "Name", "Final", "Medial"],
-  //         "rows": [
-  //           ["𐴀", "A", "𐴀", "ـ𐴀ـ"],
-  //           ["𐴁", "BA", "𐴁𐴢", "ـ𐴁ـ"],
-  //           ["𐴂", "PA", "𐴂𐴢", "ـ𐴂ـ"],
-  //           ["𐴃", "TA", "𐴃𐴢", "ـ𐴃ـ"],
-  //           ["𐴄", "TTA", "𐴄𐴢", "ـ𐴄ـ"],
-  //           ["𐴅", "JA", "𐴅", "ـ𐴅ـ"],
-  //           ["𐴆", "CA", "𐴆", "ـ𐴆ـ"],
-  //           ["𐴇", "HA", "𐴇𐴢", "ـ𐴇ـ"],
-  //           ["𐴈", "KHA", "𐴈𐴢", "ـ𐴈ـ"],
-  //           ["𐴉", "FA", "𐴉𐴢", "ـ𐴉ـ"],
-  //           ["𐴊", "DA", "𐴊𐴢", "ـ𐴊ـ"],
-  //           ["𐴋", "DDA", "𐴋", "ـ𐴋ـ"],
-  //           ["𐴌", "RA", "𐴌", "ـ𐴌ـ"],
-  //           ["𐴍", "RRA", "𐴍", "ـ𐴍ـ"],
-  //           ["𐴎", "ZA", "𐴎", "ـ𐴎ـ"],
-  //           ["𐴏", "SA", "𐴏𐴢", "ـ𐴏ـ"],
-  //           ["𐴐", "SHA", "𐴐𐴢", "ـ𐴐ـ"],
-  //           ["𐴑", "KA", "𐴑", "ـ𐴑ـ"],
-  //           ["𐴒", "GA", "𐴒𐴢", "ـ𐴒ـ"],
-  //           ["𐴓", "LA", "𐴓𐴢", "ـ𐴓ـ"],
-  //           ["𐴔", "MA", "𐴔", "ـ𐴔ـ"],
-  //           ["𐴕", "NA", "ـ𐴕", "ـ𐴕ـ"],
-  //           ["𐴖", "WA", "𐴖𐴢", "ـ𐴖ـ"],
-  //           ["𐴗", "KINNA WA", "𐴗𐴢", "ـ𐴗ـ"],
-  //           ["𐴘", "YA", "𐴘", "ـ𐴘ـ"],
-  //           ["𐴙", "KINNA YA", "𐴙𐴢", "ـ𐴙ـ"],
-  //           ["𐴚", "NGA", "𐴚", "ـ𐴚ـ"],
-  //           ["𐴛", "NYA", "𐴛", "ـ𐴛ـ"],
-  //         ],
-  //       },
-  //     },
-
-  //     {
-  //       "type": "richText",
-  //       "content": [
-  //         {"text": "\n\nWhy the Shapes Change? ", "bold": true},
-  //         {
-  //           "text":
-  //               "\n\u00A0\u00A0\u00A0\u00A0The Hanifi Rohingya script is cursive (joined) and written right-to-left (RTL). The change in shape is necessary to create a continuous, flowing line of script:\n\nJoining: When a character connects to the next, a small \"tail\" or connecting line extends from the body of the letter.\n\nCutting Off: When a character is at the end of a joining sequence (the final form), the connecting tail is cut off, and the letter often reverts to its full, independent shape for the termination.",
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
   {
     "title": "Rohingya Vowels Writing System",
-    "icon": Icons.text_format,
+    "icon": "text_format",
     "content": [
       {
         "type": "text",
-        "content":
-            "In the Rohingya script, vowels are written in different positions in relation to consonants. This placement changes the sound of the letter and the meaning of the word.",
+        "content": "In the Rohingya script, vowels are written in different positions in relation to consonants. This placement changes the sound of the letter and the meaning of the word."
       },
       {
         "type": "vowel_positions_grid",
@@ -539,159 +878,212 @@ final List<Map<String, dynamic>> grammarLessons = [
             "position": "Beside the alphabets",
             "count": "4 Vowels",
             "vowels": "𐴝 , 𐴟 , 𐴡 , 𐴣",
-            "color": "#4CAF50", // Green for beside  𐴝 , 𐴟 , 𐴡 , 𐴣
+            "color": "#4CAF50"
           },
           {
             "position": "Under the alphabets",
             "count": "2 Vowels",
             "vowels": "𐴞 , 𐴠",
-            "color": "#2196F3", // Blue for under 𐴞 , 𐴠
+            "color": "#2196F3"
           },
           {
             "position": "Above the alphabets",
             "count": "4 Vowels",
             "vowels": "𐴤, 𐴥, 𐴦, 𐴧",
-            "color": "#FF9800", // Orange for above 𐴤 , 𐴥 , 𐴦 , 𐴧
-          },
-        ],
+            "color": "#FF9800"
+          }
+        ]
       },
       {
         "type": "image",
-        "url":
-            "https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20beside.png",
+        "url": "[https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20beside.png](https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20beside.png)"
       },
       {
         "type": "image",
-        "url":
-            "https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20under.png",
+        "url": "[https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20under.png](https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20under.png)"
       },
       {
         "type": "image",
-        "url":
-            "https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20above.png",
+        "url": "[https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20above.png](https://raw.githubusercontent.com/arakaneserohingya/LearnRhgAssets/main/vowel%20above.png)"
       },
       {
         "type": "text",
-        "content":
-            "Mastering the position of vowels is essential for accurate reading and writing in the Rohingya language. Even a small mistake in placing a vowel can completely change the meaning of a word or make it unrecognizable to native speakers.",
+        "content": "Mastering the position of vowels is essential for accurate reading and writing in the Rohingya language. Even a small mistake in placing a vowel can completely change the meaning of a word or make it unrecognizable to native speakers."
       },
       {
         "type": "text",
-        "content":
-            "Vowels in Rohingya may appear above, below, before, or after consonants, and their placement determines the sound and meaning of the word. Therefore, learners should observe each vowel’s position carefully and practice writing and pronunciation regularly to build accuracy and confidence.",
-      },
-    ],
+        "content": "Vowels in Rohingya may appear above, below, before, or after consonants, and their placement determines the sound and meaning of the word. Therefore, learners should observe each vowel’s position carefully and practice writing and pronunciation regularly to build accuracy and confidence."
+      }
+    ]
   },
   {
     "title": "Writing System of Rohingya Alphabets (Hórof)",
-    "icon": Icons.edit,
+    "icon": "edit",
     "content": [
       {
         "type": "info_card",
         "title": "Script Orientation & Flow",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0The Rohingya alphabet is written from right to left, utilizing a cursive style similar to the Arabic script. This directional flow is fundamental to the script's identity. Furthermore, each letter has a specific, designated position relative to the writing line—some perch above, some sit within, and others descend below the baseline.",
+        "content": "\u00A0\u00A0\u00A0\u00A0The Rohingya alphabet is written from right to left, utilizing a cursive style similar to the Arabic script. This directional flow is fundamental to the script's identity. Furthermore, each letter has a specific, designated position relative to the writing line—some perch above, some sit within, and others descend below the baseline."
       },
       {
         "type": "info_card",
         "title": "The Art of Placement",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Correct placement of each letter is crucial, ensuring both the clarity and the aesthetic beauty of the script. In the Hanifi Rohingya system, even a small deviation in positioning can alter the readability or meaning of a word. Learners are encouraged to practice with lined paper, paying close attention to height, alignment, and the seamless connection of letters to maintain a neat, accurate, and professional writing style.",
-      },
-    ],
+        "content": "\u00A0\u00A0\u00A0\u00A0Correct placement of each letter is crucial, ensuring both the clarity and the aesthetic beauty of the script. In the Hanifi Rohingya system, even a small deviation in positioning can alter the readability or meaning of a word. Learners are encouraged to practice with lined paper, paying close attention to height, alignment, and the seamless connection of letters to maintain a neat, accurate, and professional writing style."
+      }
+    ]
   },
   {
     "title": "Rohingya Numbers and Their Names",
-    "icon": Icons.numbers,
+    "icon": "numbers",
     "content": [
       {
         "type": "text",
-        "content":
-            "Each number in the Rohingya language has its own name, symbol, and pronunciation. Learning numbers is an important part of building overall language fluency, as they are used in daily communication, such as counting, time, money, and dates.",
+        "content": "Each number in the Rohingya language has its own name, symbol, and pronunciation. Learning numbers is an important part of building overall language fluency, as they are used in daily communication, such as counting, time, money, and dates."
       },
       {
         "type": "text",
-        "content":
-            "Students should practice reading, writing, and pronouncing numbers regularly, alongside the alphabets, to develop accuracy and confidence in both written and spoken Rohingya.",
+        "content": "Students should practice reading, writing, and pronouncing numbers regularly, alongside the alphabets, to develop accuracy and confidence in both written and spoken Rohingya."
       },
       {
         "type": "text",
-        "content":
-            "Consistent practice will help learners use numbers naturally and correctly in everyday situations.",
-      },
+        "content": "Consistent practice will help learners use numbers naturally and correctly in everyday situations."
+      }
     ],
     "table": {
-      "headers": ["Rohingya Number", "English Number", "Name"],
-      "rows": [
-        ["𐴰", "0", "Siffre"],
-        ["𐴱", "1", "Ek"],
-        ["𐴲", "2", "Dui"],
-        ["𐴳", "3", "Tin"],
-        ["𐴴", "4", "Sair"],
-        ["𐴵", "5", "Fañs"],
-        ["𐴶", "6", "Só"],
-        ["𐴷", "7", "Hañt"],
-        ["𐴸", "8", "Añct ho"],
-        ["𐴹", "9", "No"],
-        ["𐴱𐴰", "10", "Doic"],
+      "headers": [
+        "Rohingya Number",
+        "English Number",
+        "Name"
       ],
-    },
+      "rows": [
+        [
+          "𐴰",
+          "0",
+          "Siffre"
+        ],
+        [
+          "𐴱",
+          "1",
+          "Ek"
+        ],
+        [
+          "𐴲",
+          "2",
+          "Dui"
+        ],
+        [
+          "𐴳",
+          "3",
+          "Tin"
+        ],
+        [
+          "𐴴",
+          "4",
+          "Sair"
+        ],
+        [
+          "𐴵",
+          "5",
+          "Fañs"
+        ],
+        [
+          "𐴶",
+          "6",
+          "Só"
+        ],
+        [
+          "𐴷",
+          "7",
+          "Hañt"
+        ],
+        [
+          "𐴸",
+          "8",
+          "Añct ho"
+        ],
+        [
+          "𐴹",
+          "9",
+          "No"
+        ],
+        [
+          "𐴱𐴰",
+          "10",
+          "Doic"
+        ]
+      ]
+    }
   },
   {
     "title": "Writing System of Rohingya Numbers",
-    "icon": Icons.format_list_numbered,
+    "icon": "format_list_numbered",
     "content": [
       {
         "type": "info_card",
         "title": "Directionality: Left to Right",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0A unique feature of the Rohingya writing system is its bidirectional nature. While the script (letters and words) is written from right to left, the numbers are written from left to right. This adheres to international mathematical standards, preventing confusion in calculations and enabling seamless integration with global numerical systems.",
+        "content": "\u00A0\u00A0\u00A0\u00A0A unique feature of the Rohingya writing system is its bidirectional nature. While the script (letters and words) is written from right to left, the numbers are written from left to right. This adheres to international mathematical standards, preventing confusion in calculations and enabling seamless integration with global numerical systems."
       },
       {
         "type": "info_card",
         "title": "Pro Tip: Mastery through Practice",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0To truly master the script, consistency is key. Practice daily by combining consonants with vowels (e.g., 𐴀 (A) with vowels → 𐴀𐴝, 𐴀𐴞, 𐴀𐴟). Additionally, write down phone numbers, dates, and prices using Rohingya numerals and read them aloud. This dual-practice approach reinforces both the visual recognition and the phonetic recall of the number names.",
-      },
-    ],
+        "content": "\u00A0\u00A0\u00A0\u00A0To truly master the script, consistency is key. Practice daily by combining consonants with vowels (e.g., 𐴀 (A) with vowels → 𐴀𐴝, 𐴀𐴞, 𐴀𐴟). Additionally, write down phone numbers, dates, and prices using Rohingya numerals and read them aloud. This dual-practice approach reinforces both the visual recognition and the phonetic recall of the number names."
+      }
+    ]
   },
   {
     "title": "Combining Alphabets with Vowels",
-    "icon": Icons.merge,
+    "icon": "merge",
     "content": [
       {
         "type": "info_card",
         "title": "Syllable Formation",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0In the Rohingya language, combining consonants (Hórof) with vowels is the foundational step to forming complete syllables. This synthesis is critical for learners to understand how specific vowel placements alter the phonetic properties of each alphabet, ultimately constructing the rich sounds of the language.",
+        "content": "\u00A0\u00A0\u00A0\u00A0In the Rohingya language, combining consonants (Hórof) with vowels is the foundational step to forming complete syllables. This synthesis is critical for learners to understand how specific vowel placements alter the phonetic properties of each alphabet, ultimately constructing the rich sounds of the language."
       },
       {
         "type": "info_card",
         "title": "Practice Methodology",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Begin by reading each example aloud slowly, focusing intently on the auditory shifts caused by different vowels. Follow this with writing exercises—write each combination neatly and repeatedly. This dual approach of vocalization and physical writing builds both accuracy and muscle memory, significantly improving pronunciation, spelling, and fluency. For Example:",
+        "content": "\u00A0\u00A0\u00A0\u00A0Begin by reading each example aloud slowly, focusing intently on the auditory shifts caused by different vowels. Follow this with writing exercises—write each combination neatly and repeatedly. This dual approach of vocalization and physical writing builds both accuracy and muscle memory, significantly improving pronunciation, spelling, and fluency. For Example:"
       },
       {
         "type": "equation_grid",
         "items": [
-          {"part1": "𐴀 (A)", "part2": "𐴝 (A-for)", "result": "𐴀𐴝 (Aa)"},
-          {"part1": "𐴀 (A)", "part2": "𐴞 (I-for)", "result": "𐴀𐴞 (I)"},
-          {"part1": "𐴀 (A)", "part2": "𐴟 (U-for)", "result": "𐴀𐴟 (U)"},
-          {"part1": "𐴀 (A)", "part2": "𐴠 (E-for)", "result": "𐴀𐴠 (E)"},
-          {"part1": "𐴀 (A)", "part2": "𐴡 (O-for)", "result": "𐴀𐴡 (O)"},
-        ],
-      },
-    ],
+          {
+            "part1": "𐴀 (A)",
+            "part2": "𐴝 (A-for)",
+            "result": "𐴀𐴝 (Aa)"
+          },
+          {
+            "part1": "𐴀 (A)",
+            "part2": "𐴞 (I-for)",
+            "result": "𐴀𐴞 (I)"
+          },
+          {
+            "part1": "𐴀 (A)",
+            "part2": "𐴟 (U-for)",
+            "result": "𐴀𐴟 (U)"
+          },
+          {
+            "part1": "𐴀 (A)",
+            "part2": "𐴠 (E-for)",
+            "result": "𐴀𐴠 (E)"
+          },
+          {
+            "part1": "𐴀 (A)",
+            "part2": "𐴡 (O-for)",
+            "result": "𐴀𐴡 (O)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Usage of Afor (𐴝) - The 'A' Vowel",
-    "icon": Icons.text_fields,
+    "icon": "text_fields",
     "content": [
       {
         "type": "info_card",
         "title": "Introduction to Afor",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0This lesson explores the fundamental vowel **Afor (𐴝)**. Phonetically equivalent to the long 'aa' sound (/ɑ/), Afor attaches to the side of a consonant. Mastering this combination is essential, as it forms the basis for constructing open syllables and simple words in the Rohingya language.",
+        "content": "\u00A0\u00A0\u00A0\u00A0This lesson explores the fundamental vowel **Afor (𐴝)**. Phonetically equivalent to the long 'aa' sound (/ɑ/), Afor attaches to the side of a consonant. Mastering this combination is essential, as it forms the basis for constructing open syllables and simple words in the Rohingya language."
       },
       {
         "type": "equation_grid",
@@ -700,90 +1092,118 @@ final List<Map<String, dynamic>> grammarLessons = [
             "part1": "𐴀 (A)",
             "part2": "𐴝 (A-for)",
             "result": "𐴀𐴝 (Aa)",
-            "meaning": "Meaning: Aa / အာ",
+            "meaning": "Meaning: Aa / အာ"
           },
           {
             "part1": "𐴁 (Ba)",
             "part2": "𐴝 (A-for)",
             "result": "𐴁𐴝 (Ba)",
-            "meaning": "Meaning: Ba / ဘာ",
+            "meaning": "Meaning: Ba / ဘာ"
           },
           {
             "part1": "𐴂 (Tha)",
             "part2": " (A-for)",
             "result": "𐴂𐴝 (Tha)",
-            "meaning": "Meaning: Tha / ထာ",
+            "meaning": "Meaning: Tha / ထာ"
           },
           {
             "part1": "𐴅 (Ja)",
             "part2": "𐴝 (A-for)",
             "result": "𐴅𐴝 (Ja)",
-            "meaning": "Meaning: Ja / ဈာ",
+            "meaning": "Meaning: Ja / ဈာ"
           },
           {
             "part1": "𐴇 (Ha)",
             "part2": "𐴝 (A-for)",
             "result": "𐴇𐴝 (Ha)",
-            "meaning": "Meaning: Ha / ဟာ",
+            "meaning": "Meaning: Ha / ဟာ"
           },
           {
             "part1": "𐴕 (Na)",
             "part2": "𐴝 (A-for)",
             "result": "𐴕𐴝 (Na)",
-            "meaning": "Meaning: Na / နာ",
+            "meaning": "Meaning: Na / နာ"
           },
           {
             "part1": "𐴓 (La)",
             "part2": "𐴝 (A-for)",
             "result": "𐴓𐴝 (La)",
-            "meaning": "Meaning: La / လာ",
+            "meaning": "Meaning: La / လာ"
           },
           {
             "part1": "𐴒 (Ga)",
             "part2": "𐴝 (A-for)",
             "result": "𐴒𐴝 (Ga)",
-            "meaning": "Meaning: Ga / ဂါ",
+            "meaning": "Meaning: Ga / ဂါ"
           },
           {
             "part1": "𐴏 (Sa)",
             "part2": "𐴝 (A-for)",
             "result": "𐴏𐴝 (Sa)",
-            "meaning": "Meaning: Sa / စာ",
-          },
-        ],
+            "meaning": "Meaning: Sa / စာ"
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Practice: Simple Words",
-        "content":
-            "Now that you know how to add 'Afor' to consonants, let's read some real Rohingya words that use this vowel exclusively.",
+        "content": "Now that you know how to add 'Afor' to consonants, let's read some real Rohingya words that use this vowel exclusively."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴎𐴝", "meaning": "Za(Go)"},
-          {"word": "𐴁𐴝𐴁𐴝", "meaning": "BaBa(Father)"},
-          {"word": "𐴊𐴝𐴊𐴝", "meaning": "DaDa(Grandfather)"},
-          {"word": "𐴏𐴝𐴏𐴝", "meaning": "SaSa(Uncle)"},
-          {"word": "𐴐𐴝𐴍𐴝", "meaning": "Sara(Mat)"},
-          {"word": "𐴊𐴝𐴕𐴝", "meaning": "Dana(Seed)"},
-          {"word": "𐴉𐴝𐴌𐴝", "meaning": "Fara(Village)"},
-          {"word": "𐴄𐴝𐴓𐴝", "meaning": "Ttala(Lock)"},
-          {"word": "𐴉𐴝𐴃𐴝", "meaning": "Fata(Leaf)"},
-          {"word": "𐴇𐴝𐴓𐴝", "meaning": "Hala(Black)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴎𐴝",
+            "meaning": "Za(Go)"
+          },
+          {
+            "word": "𐴁𐴝𐴁𐴝",
+            "meaning": "BaBa(Father)"
+          },
+          {
+            "word": "𐴊𐴝𐴊𐴝",
+            "meaning": "DaDa(Grandfather)"
+          },
+          {
+            "word": "𐴏𐴝𐴏𐴝",
+            "meaning": "SaSa(Uncle)"
+          },
+          {
+            "word": "𐴐𐴝𐴍𐴝",
+            "meaning": "Sara(Mat)"
+          },
+          {
+            "word": "𐴊𐴝𐴕𐴝",
+            "meaning": "Dana(Seed)"
+          },
+          {
+            "word": "𐴉𐴝𐴌𐴝",
+            "meaning": "Fara(Village)"
+          },
+          {
+            "word": "𐴄𐴝𐴓𐴝",
+            "meaning": "Ttala(Lock)"
+          },
+          {
+            "word": "𐴉𐴝𐴃𐴝",
+            "meaning": "Fata(Leaf)"
+          },
+          {
+            "word": "𐴇𐴝𐴓𐴝",
+            "meaning": "Hala(Black)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Usage of Ifor (𐴞) - The 'I' Vowel",
-    "icon": Icons.text_fields,
+    "icon": "text_fields",
     "content": [
       {
         "type": "info_card",
         "title": "Introduction to Ifor",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0This section introduces the vowel **Ifor (𐴞)**. Functioning as the long 'ee' sound (/i/), Ifor is written below the consonant. Understanding its placement is crucial, as it fundamentally alters the syllable's sound, creating the 'i' vowel quality essential for many Rohingya words.",
+        "content": "\u00A0\u00A0\u00A0\u00A0This section introduces the vowel **Ifor (𐴞)**. Functioning as the long 'ee' sound (/i/), Ifor is written below the consonant. Understanding its placement is crucial, as it fundamentally alters the syllable's sound, creating the 'i' vowel quality essential for many Rohingya words."
       },
       {
         "type": "equation_grid",
@@ -792,90 +1212,118 @@ final List<Map<String, dynamic>> grammarLessons = [
             "part1": "𐴀 (A)",
             "part2": "𐴞 (I-for)",
             "result": "𐴀𐴞 (Ai/Ii)",
-            "meaning": "Meaning: Ai / အီ",
+            "meaning": "Meaning: Ai / အီ"
           },
           {
             "part1": "𐴁 (Ba)",
             "part2": "𐴞 (I-for)",
             "result": "𐴁𐴞 (Bi)",
-            "meaning": "Meaning: Bi / ဘီ",
+            "meaning": "Meaning: Bi / ဘီ"
           },
           {
             "part1": "𐴃 (Ta)",
             "part2": "𐴞 (I-for)",
             "result": "𐴃𐴞 (Ti)",
-            "meaning": "Meaning: Ti / တီ",
+            "meaning": "Meaning: Ti / တီ"
           },
           {
             "part1": "𐴅 (Ja)",
             "part2": " (I-for)",
             "result": "𐴅𐴞 (Ji)",
-            "meaning": "Meaning: Ji / ဇီ",
+            "meaning": "Meaning: Ji / ဇီ"
           },
           {
             "part1": "𐴇 (Ha)",
             "part2": "𐴞 (I-for)",
             "result": "𐴇𐴞 (Hi)",
-            "meaning": "Meaning: Hi / ဟီ",
+            "meaning": "Meaning: Hi / ဟီ"
           },
           {
             "part1": "𐴉 (Fa)",
             "part2": "𐴞 (I-for)",
             "result": "𐴉𐴞 (Fi)",
-            "meaning": "Meaning: Fi / ဖီ",
+            "meaning": "Meaning: Fi / ဖီ"
           },
           {
             "part1": "𐴓 (La)",
             "part2": "𐴞 (I-for)",
             "result": "𐴓𐴞 (Li)",
-            "meaning": "Meaning: Li / လီ",
+            "meaning": "Meaning: Li / လီ"
           },
           {
             "part1": "𐴘 (Ya)",
             "part2": "𐴞 (I-for)",
             "result": "𐴘𐴞 (Yi)",
-            "meaning": "Meaning: Yi / ယီ",
+            "meaning": "Meaning: Yi / ယီ"
           },
           {
             "part1": "𐴒 (Ga)",
             "part2": "𐴞 (I-for)",
             "result": "𐴒𐴞 (Gi)",
-            "meaning": "Meaning: Gi / ဂီ",
-          },
-        ],
+            "meaning": "Meaning: Gi / ဂီ"
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Practice: Simple Words",
-        "content":
-            "Combine consonants with 'Ifor' to form these common everyday words.",
+        "content": "Combine consonants with 'Ifor' to form these common everyday words."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴁𐴞𐴁𐴞", "meaning": "Bibi (Wife)"},
-          {"word": "𐴕𐴝𐴕𐴞", "meaning": "Nani (Grandmother)"},
-          {"word": "𐴉𐴝𐴕𐴞", "meaning": "Fani (Water)"},
-          {"word": "𐴏𐴞𐴕𐴞", "meaning": "Sini (Sugar)"},
-          {"word": "𐴐𐴞𐴚", "meaning": "Shing (Horn)"},
-          {"word": "𐴎𐴞𐴁𐴡𐴕", "meaning": "Zibon (Life)"},
-          {"word": "𐴒𐴝𐴌𐴞", "meaning": "Gari (Car)"},
-          {"word": "𐴃𐴞𐴃𐴝", "meaning": "Tita (Bitter)"},
-          {"word": "𐴏𐴝𐴁𐴞", "meaning": "Sabi (Key)"},
-          {"word": "𐴃𐴝𐴓𐴞", "meaning": "Tali (Clap)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴁𐴞𐴁𐴞",
+            "meaning": "Bibi (Wife)"
+          },
+          {
+            "word": "𐴕𐴝𐴕𐴞",
+            "meaning": "Nani (Grandmother)"
+          },
+          {
+            "word": "𐴉𐴝𐴕𐴞",
+            "meaning": "Fani (Water)"
+          },
+          {
+            "word": "𐴏𐴞𐴕𐴞",
+            "meaning": "Sini (Sugar)"
+          },
+          {
+            "word": "𐴐𐴞𐴚",
+            "meaning": "Shing (Horn)"
+          },
+          {
+            "word": "𐴎𐴞𐴁𐴡𐴕",
+            "meaning": "Zibon (Life)"
+          },
+          {
+            "word": "𐴒𐴝𐴌𐴞",
+            "meaning": "Gari (Car)"
+          },
+          {
+            "word": "𐴃𐴞𐴃𐴝",
+            "meaning": "Tita (Bitter)"
+          },
+          {
+            "word": "𐴏𐴝𐴁𐴞",
+            "meaning": "Sabi (Key)"
+          },
+          {
+            "word": "𐴃𐴝𐴓𐴞",
+            "meaning": "Tali (Clap)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Usage of Ufor (𐴟) - The 'U' Vowel",
-    "icon": Icons.text_fields,
+    "icon": "text_fields",
     "content": [
       {
         "type": "info_card",
         "title": "Introduction to Ufor",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0This lesson focuses on the vowel **Ufor (𐴟)**. It represents the short 'u' sound (/u/) and is written below the consonant. Correct usage of Ufor is vital for distinguishing words that rely on this specific vowel quality for meaning and pronunciation.",
+        "content": "\u00A0\u00A0\u00A0\u00A0This lesson focuses on the vowel **Ufor (𐴟)**. It represents the short 'u' sound (/u/) and is written below the consonant. Correct usage of Ufor is vital for distinguishing words that rely on this specific vowel quality for meaning and pronunciation."
       },
       {
         "type": "equation_grid",
@@ -884,90 +1332,118 @@ final List<Map<String, dynamic>> grammarLessons = [
             "part1": "𐴀 (A)",
             "part2": "𐴟 (U-for)",
             "result": "𐴀𐴟 (U)",
-            "meaning": "Meaning: U / အု",
+            "meaning": "Meaning: U / အု"
           },
           {
             "part1": "𐴌 (Ra)",
             "part2": "𐴟 (U-for)",
             "result": "𐴌𐴟 (Ru)",
-            "meaning": "Meaning: Ru / ရု",
+            "meaning": "Meaning: Ru / ရု"
           },
           {
             "part1": "𐴃 (Tha)",
             "part2": "𐴟 (U-for)",
             "result": "𐴃𐴟 (Thu)",
-            "meaning": "Meaning: Thu / ထု",
+            "meaning": "Meaning: Thu / ထု"
           },
           {
             "part1": "𐴉 (Fa)",
             "part2": "𐴟 (U-for)",
             "result": "𐴉𐴟 (Fu)",
-            "meaning": "Meaning: Fu / ဖု",
+            "meaning": "Meaning: Fu / ဖု"
           },
           {
             "part1": "𐴑 (Ka)",
             "part2": "𐴟 (U-for)",
             "result": "𐴑𐴟 (Ku)",
-            "meaning": "Meaning: Ku / ကု",
+            "meaning": "Meaning: Ku / ကု"
           },
           {
             "part1": "𐴇 (Ha)",
             "part2": "𐴟 (U-for)",
             "result": "𐴇𐴟 (Hu)",
-            "meaning": "Meaning: Hu / ဟု",
+            "meaning": "Meaning: Hu / ဟု"
           },
           {
             "part1": "𐴕 (Na)",
             "part2": "𐴟 (U-for)",
             "result": "𐴕𐴟 (Nu)",
-            "meaning": "Meaning: Nu / နု",
+            "meaning": "Meaning: Nu / နု"
           },
           {
             "part1": "𐴒 (Ga)",
             "part2": "𐴟 (U-for)",
             "result": "𐴒𐴟 (Gu)",
-            "meaning": "Meaning: Gu / ဂု",
+            "meaning": "Meaning: Gu / ဂု"
           },
           {
             "part1": "𐴚 (Nga)",
             "part2": "𐴟 (U-for)",
             "result": "𐴚𐴟 (Ngu)",
-            "meaning": "Meaning: Ngu / ငု",
-          },
-        ],
+            "meaning": "Meaning: Ngu / ငု"
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Practice: Simple Words",
-        "content":
-            "Combine consonants with 'Ufor' to form these common everyday words within the Rohingya language.",
+        "content": "Combine consonants with 'Ufor' to form these common everyday words within the Rohingya language."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴊𐴟𐴑", "meaning": "Duk (Sorrow)"},
-          {"word": "𐴒𐴟𐴔", "meaning": "Gum (Sleep)"},
-          {"word": "𐴉𐴟𐴓", "meaning": "Ful (Flower)"},
-          {"word": "𐴔𐴟𐴑", "meaning": "Muk (Face)"},
-          {"word": "𐴏𐴟𐴓", "meaning": "Sul (Hair)"},
-          {"word": "𐴑𐴟𐴕𐴝", "meaning": "Kuna (Corner)"},
-          {"word": "𐴁𐴟𐴑", "meaning": "Buk (Chest)"},
-          {"word": "𐴒𐴡𐴌𐴟", "meaning": "Goru (Cow)"},
-          {"word": "𐴑𐴟𐴌𐴝", "meaning": "Kura (Chicken)"},
-          {"word": "𐴊𐴟𐴊𐴢", "meaning": "Dud (Milk)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴊𐴟𐴑",
+            "meaning": "Duk (Sorrow)"
+          },
+          {
+            "word": "𐴒𐴟𐴔",
+            "meaning": "Gum (Sleep)"
+          },
+          {
+            "word": "𐴉𐴟𐴓",
+            "meaning": "Ful (Flower)"
+          },
+          {
+            "word": "𐴔𐴟𐴑",
+            "meaning": "Muk (Face)"
+          },
+          {
+            "word": "𐴏𐴟𐴓",
+            "meaning": "Sul (Hair)"
+          },
+          {
+            "word": "𐴑𐴟𐴕𐴝",
+            "meaning": "Kuna (Corner)"
+          },
+          {
+            "word": "𐴁𐴟𐴑",
+            "meaning": "Buk (Chest)"
+          },
+          {
+            "word": "𐴒𐴡𐴌𐴟",
+            "meaning": "Goru (Cow)"
+          },
+          {
+            "word": "𐴑𐴟𐴌𐴝",
+            "meaning": "Kura (Chicken)"
+          },
+          {
+            "word": "𐴊𐴟𐴊𐴢",
+            "meaning": "Dud (Milk)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Usage of Efor (𐴠) - The 'E' Vowel",
-    "icon": Icons.text_fields,
+    "icon": "text_fields",
     "content": [
       {
         "type": "info_card",
         "title": "Introduction to Efor",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0Here we examine the vowel **Efor (𐴠)**. Corresponding to the 'e' sound (/e/), Efor is typically written below the consonant. It is instrumental in creating syllables that require distinct mid-front vowel articulation.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Here we examine the vowel **Efor (𐴠)**. Corresponding to the 'e' sound (/e/), Efor is typically written below the consonant. It is instrumental in creating syllables that require distinct mid-front vowel articulation."
       },
       {
         "type": "equation_grid",
@@ -976,90 +1452,118 @@ final List<Map<String, dynamic>> grammarLessons = [
             "part1": "𐴀 (A)",
             "part2": "𐴠 (E-for)",
             "result": "𐴀𐴠 (Ee)",
-            "meaning": "Meaning: Ee / အေ",
+            "meaning": "Meaning: Ee / အေ"
           },
           {
             "part1": "𐴁 (Ba)",
             "part2": "𐴠 (E-for)",
             "result": "𐴁𐴠 (Be)",
-            "meaning": "Meaning: Be / ဘေ",
+            "meaning": "Meaning: Be / ဘေ"
           },
           {
             "part1": "𐴃 (Tha)",
             "part2": " (E-for)",
             "result": "𐴃𐴠 (The)",
-            "meaning": "Meaning: The / ထေ",
+            "meaning": "Meaning: The / ထေ"
           },
           {
             "part1": "𐴇 (Ha)",
             "part2": "𐴠 (E-for)",
             "result": "𐴇𐴠 (He)",
-            "meaning": "Meaning: He / ဟေ",
+            "meaning": "Meaning: He / ဟေ"
           },
           {
             "part1": "𐴉 (Fa)",
             "part2": "𐴠 (E-for)",
             "result": "𐴉𐴠 (Fe)",
-            "meaning": "Meaning: Fe / ဖေ",
+            "meaning": "Meaning: Fe / ဖေ"
           },
           {
             "part1": "𐴊 (Da)",
             "part2": "𐴠 (E-for)",
             "result": "𐴊𐴠 (De)",
-            "meaning": "Meaning: De / ဒေ",
+            "meaning": "Meaning: De / ဒေ"
           },
           {
             "part1": "𐴌 (Ra)",
             "part2": "𐴠 (E-for)",
             "result": "𐴌𐴠 (Re)",
-            "meaning": "Meaning: Re / ရေ",
+            "meaning": "Meaning: Re / ရေ"
           },
           {
             "part1": "𐴕 (Na)",
             "part2": "𐴠 (E-for)",
             "result": "𐴕𐴠 (Ne)",
-            "meaning": "Meaning: Ne / နေ",
+            "meaning": "Meaning: Ne / နေ"
           },
           {
             "part1": "𐴚 (Nga)",
             "part2": "𐴠 (E-for)",
             "result": "𐴚𐴠 (Nge)",
-            "meaning": "Meaning: Nge / ငေ",
-          },
-        ],
+            "meaning": "Meaning: Nge / ငေ"
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Practice: Simple Words",
-        "content":
-            "Combine consonants with 'Efor' to form these common everyday words within the Rohingya language.",
+        "content": "Combine consonants with 'Efor' to form these common everyday words within the Rohingya language."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴀𐴠𐴑", "meaning": "Ek (One)"},
-          {"word": "𐴊𐴠𐴏𐴢", "meaning": "Des (Country)"},
-          {"word": "𐴓𐴠𐴏𐴢", "meaning": "Les (Tail)"},
-          {"word": "𐴃𐴠𐴓", "meaning": "Tel (Oil)"},
-          {"word": "𐴁𐴠𐴓", "meaning": "Bel (Bell)"},
-          {"word": "𐴔𐴠𐴓𐴝", "meaning": "Mela (Fair)"},
-          {"word": "𐴑𐴠𐴓𐴝", "meaning": "Kela (Banana)"},
-          {"word": "𐴁𐴠𐴌𐴝", "meaning": "Bera (Fence)"},
-          {"word": "𐴉𐴠𐴕𐴝", "meaning": "Fena (Foam)"},
-          {"word": "𐴔𐴠𐴏𐴢", "meaning": "Mes (Table)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴀𐴠𐴑",
+            "meaning": "Ek (One)"
+          },
+          {
+            "word": "𐴊𐴠𐴏𐴢",
+            "meaning": "Des (Country)"
+          },
+          {
+            "word": "𐴓𐴠𐴏𐴢",
+            "meaning": "Les (Tail)"
+          },
+          {
+            "word": "𐴃𐴠𐴓",
+            "meaning": "Tel (Oil)"
+          },
+          {
+            "word": "𐴁𐴠𐴓",
+            "meaning": "Bel (Bell)"
+          },
+          {
+            "word": "𐴔𐴠𐴓𐴝",
+            "meaning": "Mela (Fair)"
+          },
+          {
+            "word": "𐴑𐴠𐴓𐴝",
+            "meaning": "Kela (Banana)"
+          },
+          {
+            "word": "𐴁𐴠𐴌𐴝",
+            "meaning": "Bera (Fence)"
+          },
+          {
+            "word": "𐴉𐴠𐴕𐴝",
+            "meaning": "Fena (Foam)"
+          },
+          {
+            "word": "𐴔𐴠𐴏𐴢",
+            "meaning": "Mes (Table)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Usage of Ofor (𐴡) - The 'O' Vowel",
-    "icon": Icons.text_fields,
+    "icon": "text_fields",
     "content": [
       {
         "type": "info_card",
         "title": "Introduction to Ofor",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0This lesson introduces **Ofor (𐴡)**, the long 'o' vowel sound (/o/). Like other vowels, it attaches specifically to the consonant (often below or beside depending on style, but here standardized). It is the backbone of many common descriptors and nouns in Rohingya.",
+        "content": "\u00A0\u00A0\u00A0\u00A0This lesson introduces **Ofor (𐴡)**, the long 'o' vowel sound (/o/). Like other vowels, it attaches specifically to the consonant (often below or beside depending on style, but here standardized). It is the backbone of many common descriptors and nouns in Rohingya."
       },
       {
         "type": "equation_grid",
@@ -1068,90 +1572,118 @@ final List<Map<String, dynamic>> grammarLessons = [
             "part1": "𐴀 (A)",
             "part2": "𐴡 (O-for)",
             "result": "𐴀𐴡 (Ao)",
-            "meaning": "Meaning: Ao / အော",
+            "meaning": "Meaning: Ao / အော"
           },
           {
             "part1": "𐴁 (Ba)",
             "part2": "𐴡 (O-for)",
             "result": "𐴁𐴡 (Bo)",
-            "meaning": "Meaning: Bo / ဘော",
+            "meaning": "Meaning: Bo / ဘော"
           },
           {
             "part1": "𐴃 (Ta)",
             "part2": "𐴡 (O-for)",
             "result": "𐴃𐴡 (To)",
-            "meaning": "Meaning: To / တော",
+            "meaning": "Meaning: To / တော"
           },
           {
             "part1": "𐴅 (Ja)",
             "part2": "𐴡 (O-for)",
             "result": "𐴅𐴡 (Jo)",
-            "meaning": "Meaning: Jo / ဇော",
+            "meaning": "Meaning: Jo / ဇော"
           },
           {
             "part1": "𐴓 (La)",
             "part2": "𐴡 (O-for)",
             "result": "𐴓𐴡 (Lo)",
-            "meaning": "Meaning: Lo / လော",
+            "meaning": "Meaning: Lo / လော"
           },
           {
             "part1": "𐴔 (Ma)",
             "part2": "𐴡 (O-for)",
             "result": "𐴔𐴡 (Mo)",
-            "meaning": "Meaning: Mo / မော",
+            "meaning": "Meaning: Mo / မော"
           },
           {
             "part1": "𐴒 (Ga)",
             "part2": "𐴡 (O-for)",
             "result": "𐴒𐴡 (Go)",
-            "meaning": "Meaning: Go / ဂော",
+            "meaning": "Meaning: Go / ဂော"
           },
           {
             "part1": "𐴕 (Na)",
             "part2": "𐴡 (O-for)",
             "result": "𐴕𐴡 (No)",
-            "meaning": "Meaning: No / နော",
+            "meaning": "Meaning: No / နော"
           },
           {
             "part1": "𐴚 (Nga)",
             "part2": "𐴡 (O-for)",
             "result": "𐴚𐴡 (Ngo)",
-            "meaning": "Meaning: Ngo / ငော",
-          },
-        ],
+            "meaning": "Meaning: Ngo / ငော"
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Practice: Simple Words",
-        "content":
-            "Combine consonants with 'Ofor' to form these common everyday words within the Rohingya language.",
+        "content": "Combine consonants with 'Ofor' to form these common everyday words within the Rohingya language."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴎𐴡𐴌", "meaning": "Zor (Fever)"},
-          {"word": "𐴋𐴡𐴌", "meaning": "Dor (Fear)"},
-          {"word": "𐴉𐴡𐴌", "meaning": "For (Read)"},
-          {"word": "𐴃𐴡𐴓𐴝", "meaning": "Tola (Bottom)"},
-          {"word": "𐴕𐴡𐴁𐴞", "meaning": "Nobi (Prophet)"},
-          {"word": "𐴁𐴡𐴓𐴞", "meaning": "Boli (Fat)"},
-          {"word": "𐴒𐴡𐴓𐴝", "meaning": "Gola (Neck)"},
-          {"word": "𐴈𐴡𐴓𐴞", "meaning": "Kholi (Bud)"},
-          {"word": "𐴋𐴡𐴓𐴝", "meaning": "Dhola (White)"},
-          {"word": "𐴕𐴡𐴘𐴧𐴝", "meaning": "Noyya (New)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴎𐴡𐴌",
+            "meaning": "Zor (Fever)"
+          },
+          {
+            "word": "𐴋𐴡𐴌",
+            "meaning": "Dor (Fear)"
+          },
+          {
+            "word": "𐴉𐴡𐴌",
+            "meaning": "For (Read)"
+          },
+          {
+            "word": "𐴃𐴡𐴓𐴝",
+            "meaning": "Tola (Bottom)"
+          },
+          {
+            "word": "𐴕𐴡𐴁𐴞",
+            "meaning": "Nobi (Prophet)"
+          },
+          {
+            "word": "𐴁𐴡𐴓𐴞",
+            "meaning": "Boli (Fat)"
+          },
+          {
+            "word": "𐴒𐴡𐴓𐴝",
+            "meaning": "Gola (Neck)"
+          },
+          {
+            "word": "𐴈𐴡𐴓𐴞",
+            "meaning": "Kholi (Bud)"
+          },
+          {
+            "word": "𐴋𐴡𐴓𐴝",
+            "meaning": "Dhola (White)"
+          },
+          {
+            "word": "𐴕𐴡𐴘𐴧𐴝",
+            "meaning": "Noyya (New)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Na-khonna (𐴣) - The Nasalizer",
-    "icon": Icons.air,
+    "icon": "air",
     "content": [
       {
         "type": "info_card",
         "title": "Understanding Na-khonna",
-        "content":
-            "\u00A0\u00A0\u00A0\u00A0**Na-khonna (𐴣)** modifies a syllable by adding a nasal quality, where air escapes through both the mouth and nose. In the Rohingyalish system, it is denoted by 'ŋ'. This unique sound is distinct and lacks a direct English equivalent, making practice essential for authentic pronunciation.",
+        "content": "\u00A0\u00A0\u00A0\u00A0**Na-khonna (𐴣)** modifies a syllable by adding a nasal quality, where air escapes through both the mouth and nose. In the Rohingyalish system, it is denoted by 'ŋ'. This unique sound is distinct and lacks a direct English equivalent, making practice essential for authentic pronunciation."
       },
       {
         "type": "equation_grid",
@@ -1160,71 +1692,97 @@ final List<Map<String, dynamic>> grammarLessons = [
             "part1": "𐴀 (A)",
             "part2": "𐴣 (Na-khonna)",
             "result": "𐴀𐴣 (Aŋ)",
-            "meaning": "Meaning: Aŋ ",
+            "meaning": "Meaning: Aŋ "
           },
           {
             "part1": "𐴁 (Ba)",
             "part2": "𐴣 (Na-khonna)",
             "result": "𐴁𐴣 (Baŋ)",
-            "meaning": "Meaning: Baŋ ",
+            "meaning": "Meaning: Baŋ "
           },
           {
             "part1": "𐴓 (La)",
             "part2": "𐴣 (Na-khonna)",
             "result": "𐴓𐴣 (Laŋ)",
-            "meaning": "Meaning: Laŋ ",
+            "meaning": "Meaning: Laŋ "
           },
           {
             "part1": "𐴎 (Za)",
             "part2": "𐴣 (Na-khonna)",
             "result": "𐴎𐴣 (Zaŋ)",
-            "meaning": "Meaning: Zaŋ ",
-          },
-        ],
+            "meaning": "Meaning: Zaŋ "
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Practice: Simple Words",
-        "content": "Words using 'Na-khonna' to produce the nasal sound.",
+        "content": "Words using 'Na-khonna' to produce the nasal sound."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴉𐴝𐴤𐴣𐴏𐴢", "meaning": "Fañs (Five)"},
-          {"word": "𐴑𐴠𐴣𐴙𐴓𐴢", "meaning": "Kaiñl (Waist)"},
-          {"word": "𐴀𐴝𐴦𐴣𐴍𐴡𐴤𐴕", "meaning": "Añron (Walk)"},
-          {"word": "𐴋𐴡𐴤𐴣𐴀𐴌𐴢", "meaning": "Doñr(Big)"},
-          {"word": "𐴀𐴝𐴣𐴀𐴌𐴝", "meaning": " Añra(We)"},
-          {"word": "𐴉𐴠𐴣𐴏𐴝", "meaning": "Feñsa (Owl)"},
-          {"word": "𐴋𐴠𐴣𐴍𐴝", "meaning": "Dheñça (Petiole)"},
-          {"word": "𐴈𐴡𐴣𐴏𐴞", "meaning": "Hoñsi (Lemon)"},
-          {"word": "𐴑𐴠𐴣𐴍𐴝", "meaning": "Keñça (Thorn)"},
-          {"word": "𐴀𐴝𐴣𐴃𐴞", "meaning": "Añti (Intestine)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴉𐴝𐴤𐴣𐴏𐴢",
+            "meaning": "Fañs (Five)"
+          },
+          {
+            "word": "𐴑𐴠𐴣𐴙𐴓𐴢",
+            "meaning": "Kaiñl (Waist)"
+          },
+          {
+            "word": "𐴀𐴝𐴦𐴣𐴍𐴡𐴤𐴕",
+            "meaning": "Añron (Walk)"
+          },
+          {
+            "word": "𐴋𐴡𐴤𐴣𐴀𐴌𐴢",
+            "meaning": "Doñr(Big)"
+          },
+          {
+            "word": "𐴀𐴝𐴣𐴀𐴌𐴝",
+            "meaning": " Añra(We)"
+          },
+          {
+            "word": "𐴉𐴠𐴣𐴏𐴝",
+            "meaning": "Feñsa (Owl)"
+          },
+          {
+            "word": "𐴋𐴠𐴣𐴍𐴝",
+            "meaning": "Dheñça (Petiole)"
+          },
+          {
+            "word": "𐴈𐴡𐴣𐴏𐴞",
+            "meaning": "Hoñsi (Lemon)"
+          },
+          {
+            "word": "𐴑𐴠𐴣𐴍𐴝",
+            "meaning": "Keñça (Thorn)"
+          },
+          {
+            "word": "𐴀𐴝𐴣𐴃𐴞",
+            "meaning": "Añti (Intestine)"
+          }
+        ]
+      }
+    ]
   },
-
   {
     "title": "Harbai (𐴤) and Théla (𐴥)",
-    "icon": Icons.volume_up,
+    "icon": "volume_up",
     "content": [
       {
         "type": "info_card",
         "title": "Introduction",
-        "content":
-            "Harbai and Théla are diacritical marks that indicate tonal stress or emphasis in pronunciation. While they both affect a word's prosody, they are used in distinct grammatical and phonetic contexts.",
+        "content": "Harbai and Théla are diacritical marks that indicate tonal stress or emphasis in pronunciation. While they both affect a word's prosody, they are used in distinct grammatical and phonetic contexts."
       },
       {
         "type": "comparison_tree",
         "data": {
           "topTitle": "Summary of Harbai and Théla",
           "topSubtitle": "Stress Patterns",
-          "rootLabel": " (   𐴤   ) and  (   𐴥   )",
-
+          "rootLabel": " ( \u00A0 \u00A0𐴤\u00A0 \u00A0) and\u00A0 ( \u00A0 \u00A0𐴥\u00A0 \u00A0)",
           "rightTitle": "Stress without a slight 'H' sound",
-          "rightDescription":
-              "Théla is applied to these seventeen consonants. These characters inherently lack aspiration, meaning they do not produce a breathy 'H' sound when emphasized. Théla is used to mark stress on these specific letters.",
+          "rightDescription": "Théla is applied to these seventeen consonants. These characters inherently lack aspiration, meaning they do not produce a breathy 'H' sound when emphasized. Théla is used to mark stress on these specific letters.",
           "rightCount": "17",
           "rightItems": [
             "𐴀",
@@ -1243,12 +1801,10 @@ final List<Map<String, dynamic>> grammarLessons = [
             "𐴘",
             "𐴙",
             "𐴚",
-            "𐴛",
+            "𐴛"
           ],
-
           "leftTitle": "Stress with a slight 'H' sound",
-          "leftDescription":
-              "Harbai is applied to these eleven consonants. These characters differ because they naturally carry aspiration, releasing a distinct slight 'H' sound when stressed. Harbai is used exclusively for these letters.",
+          "leftDescription": "Harbai is applied to these eleven consonants. These characters differ because they naturally carry aspiration, releasing a distinct slight 'H' sound when stressed. Harbai is used exclusively for these letters.",
           "leftCount": "11",
           "leftItems": [
             "𐴁",
@@ -1261,71 +1817,118 @@ final List<Map<String, dynamic>> grammarLessons = [
             "𐴎",
             "𐴐",
             "𐴑",
-            "𐴒",
+            "𐴒"
           ],
-          "remark":
-              "Harbi (𐴤), Théla (𐴥), and Thanaa (𐴦) are never used together in the same word whether two or all three at a time.",
-        },
+          "remark": "Harbi (𐴤), Théla (𐴥), and Thanaa (𐴦) are never used together in the same word whether two or all three at a time."
+        }
       },
       {
         "type": "info_card",
         "title": "Examples with Harbai (𐴤)",
-        "content": "Words changing meaning with Harbai (Stress with H sound).",
+        "content": "Words changing meaning with Harbai (Stress with H sound)."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴁𐴝𐴘", "meaning": "Bai (Dizziness)"},
-          {"word": "𐴁𐴤𐴝𐴘", "meaning": "Bhai (Brother)"},
-          {"word": "𐴃𐴡𐴌", "meaning": "Tor (Your)"},
-          {"word": "𐴃𐴤𐴡𐴌", "meaning": "Thor (Support)"},
-          // {"word": "𐴄𐴞𐴑", "meaning": "Thik (All)"},
-          // {"word": "𐴄𐴤𐴞𐴑", "meaning": "Thhik (Tick)"},
-          {"word": "𐴑𐴟𐴓", "meaning": "Kul (Lap)"},
-          {"word": "𐴑𐴤𐴟𐴓", "meaning": "Khul (Open)"},
-          {"word": "𐴒𐴡𐴌", "meaning": "Gor (Do)"},
-          {"word": "𐴒𐴤𐴡𐴌", "meaning": "Ghor (Home)"},
-        ],
+          {
+            "word": "𐴁𐴝𐴘",
+            "meaning": "Bai (Dizziness)"
+          },
+          {
+            "word": "𐴁𐴤𐴝𐴘",
+            "meaning": "Bhai (Brother)"
+          },
+          {
+            "word": "𐴃𐴡𐴌",
+            "meaning": "Tor (Your)"
+          },
+          {
+            "word": "𐴃𐴤𐴡𐴌",
+            "meaning": "Thor (Support)"
+          },
+          {
+            "word": "𐴑𐴟𐴓",
+            "meaning": "Kul (Lap)"
+          },
+          {
+            "word": "𐴑𐴤𐴟𐴓",
+            "meaning": "Khul (Open)"
+          },
+          {
+            "word": "𐴒𐴡𐴌",
+            "meaning": "Gor (Do)"
+          },
+          {
+            "word": "𐴒𐴤𐴡𐴌",
+            "meaning": "Ghor (Home)"
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Examples with Théla (𐴥)",
-        "content":
-            "Words changing meaning with Théla (Stress without H sound).",
+        "content": "Words changing meaning with Théla (Stress without H sound)."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴉𐴟𐴑", "meaning": "Fuk (Insect)"},
-          {"word": "𐴉𐴥𐴟𐴑", "meaning": "Fhuk (Lock)"},
-          {"word": "𐴏𐴝𐴘", "meaning": "Sai (Net)"},
-          {"word": "𐴏𐴥𐴝𐴘", "meaning": "Shai (Ashes)"},
-          {"word": "𐴔𐴟𐴄", "meaning": "Mut (Summary)"},
-          {"word": "𐴔𐴥𐴟𐴄", "meaning": "Mhut (Fist)"},
-          {"word": "𐴇𐴝𐴊𐴝", "meaning": "Hada (Dirty)"},
-          {"word": "𐴇𐴥𐴝𐴊𐴝", "meaning": "Hhada (Tobacco)"},
-          {"word": "𐴈𐴝𐴍𐴝", "meaning": "Khata (Cut)"},
-          {"word": "𐴈𐴥𐴝𐴍𐴝", "meaning": "Khhata (Stay)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴉𐴟𐴑",
+            "meaning": "Fuk (Insect)"
+          },
+          {
+            "word": "𐴉𐴥𐴟𐴑",
+            "meaning": "Fhuk (Lock)"
+          },
+          {
+            "word": "𐴏𐴝𐴘",
+            "meaning": "Sai (Net)"
+          },
+          {
+            "word": "𐴏𐴥𐴝𐴘",
+            "meaning": "Shai (Ashes)"
+          },
+          {
+            "word": "𐴔𐴟𐴄",
+            "meaning": "Mut (Summary)"
+          },
+          {
+            "word": "𐴔𐴥𐴟𐴄",
+            "meaning": "Mhut (Fist)"
+          },
+          {
+            "word": "𐴇𐴝𐴊𐴝",
+            "meaning": "Hada (Dirty)"
+          },
+          {
+            "word": "𐴇𐴥𐴝𐴊𐴝",
+            "meaning": "Hhada (Tobacco)"
+          },
+          {
+            "word": "𐴈𐴝𐴍𐴝",
+            "meaning": "Khata (Cut)"
+          },
+          {
+            "word": "𐴈𐴥𐴝𐴍𐴝",
+            "meaning": "Khhata (Stay)"
+          }
+        ]
+      }
+    ]
   },
-
   {
     "title": "Thaana (𐴦) / Long Sound",
-    "icon": Icons.drag_handle,
+    "icon": "drag_handle",
     "content": [
       {
         "type": "info_card",
         "title": "Definition & Function",
-        "content":
-            "Thaana (𐴦) serves as a vowel elongation diacritic within the Rohingya script. Its primary phonological function is to extend the duration of the vowel sound associated with the preceding consonant, effectively doubling its length. For instance, the character 𐴁 represents the sound /b/ with a short vowel; when the Thaana is appended as in 𐴁𐴦, the syllable's nucleus is lengthened, producing /baː/ (a long 'aa' sound).",
+        "content": "\u00A0\u00A0\u00A0\u00A0Thaana (𐴦) serves as a vowel elongation diacritic within the Rohingya script. Its primary phonological function is to extend the duration of the vowel sound associated with the preceding consonant, effectively doubling its length. For instance, the character 𐴁 represents the sound /b/ with a short vowel; when the Thaana is appended as in 𐴁𐴦, the syllable's nucleus is lengthened, producing /baː/ (a long 'aa' sound)."
       },
       {
         "type": "info_card",
         "title": "Phonemic Importance",
-        "content":
-            "In the Rohingya language, vowel length is phonemic, meaning the distinction between a short vowel and a long vowel—marked by the Thaana—can alter the semantic meaning of a word, similar to how distinct consonant sounds function in other languages. Consequently, the precise application of Thaana is not merely optional but fundamental for clear and accurate communication.",
+        "content": "\u00A0\u00A0\u00A0\u00A0In the Rohingya language, vowel length is phonemic, meaning the distinction between a short vowel and a long vowel—marked by the Thaana—can alter the semantic meaning of a word, similar to how distinct consonant sounds function in other languages. Consequently, the precise application of Thaana is not merely optional but fundamental for clear and accurate communication."
       },
       {
         "type": "equation_grid",
@@ -1334,387 +1937,562 @@ final List<Map<String, dynamic>> grammarLessons = [
             "part1": "𐴁 (Ba)",
             "part2": "𐴦 (Thaana)",
             "result": "𐴁𐴦 (Baa)",
-            "meaning": "Meaning: Baa",
+            "meaning": "Meaning: Baa"
           },
           {
             "part1": "𐴃 (Ta)",
             "part2": "𐴦 (Thaana)",
             "result": "𐴃𐴦 (Taa)",
-            "meaning": "Meaning: Taa",
+            "meaning": "Meaning: Taa"
           },
           {
             "part1": "𐴏 (Sa)",
             "part2": "𐴦 (Thaana)",
             "result": "𐴏𐴦 (Saa)",
-            "meaning": "Meaning: Saa",
+            "meaning": "Meaning: Saa"
           },
           {
             "part1": "𐴔 (Ma)",
             "part2": "𐴦 (Thaana)",
             "result": "𐴔𐴦 (Maa)",
-            "meaning": "Meaning: Maa",
+            "meaning": "Meaning: Maa"
           },
           {
             "part1": "𐴓 (La)",
             "part2": "𐴦 (Thaana)",
             "result": "𐴓𐴦 (Laa)",
-            "meaning": "Meaning: Laa",
-          },
-        ],
+            "meaning": "Meaning: Laa"
+          }
+        ]
       },
       {
         "type": "info_card",
         "title": "Spell and Read",
-        "content": "Read and write the following words carefully:",
+        "content": "Read and write the following words carefully:"
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴏𐴦𐴡𐴛", "meaning": "Waiting"},
-          {"word": "𐴔𐴦𐴝𐴣", "meaning": "Mother"},
-          {"word": "𐴒𐴦𐴝", "meaning": "Body"},
-          {"word": "𐴊𐴦𐴟𐴣𐴌𐴠𐴌", "meaning": "Running"},
-          {"word": "𐴈𐴦𐴡𐴣𐴓𐴢", "meaning": "Tender"},
-          {"word": "𐴎𐴦𐴡𐴣𐴓", "meaning": "Bush"},
-          {"word": "𐴀𐴦𐴡𐴣𐴓𐴢", "meaning": "Finger"},
-          {"word": "𐴁𐴦𐴡𐴕𐴝", "meaning": "Pawn"},
-          {"word": "𐴊𐴦𐴡", "meaning": "Machete"},
-          {"word": "𐴁𐴦𐴝𐴊𐴠", "meaning": "And"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴏𐴦𐴡𐴛",
+            "meaning": "Waiting"
+          },
+          {
+            "word": "𐴔𐴦𐴝𐴣",
+            "meaning": "Mother"
+          },
+          {
+            "word": "𐴒𐴦𐴝",
+            "meaning": "Body"
+          },
+          {
+            "word": "𐴊𐴦𐴟𐴣𐴌𐴠𐴌",
+            "meaning": "Running"
+          },
+          {
+            "word": "𐴈𐴦𐴡𐴣𐴓𐴢",
+            "meaning": "Tender"
+          },
+          {
+            "word": "𐴎𐴦𐴡𐴣𐴓",
+            "meaning": "Bush"
+          },
+          {
+            "word": "𐴀𐴦𐴡𐴣𐴓𐴢",
+            "meaning": "Finger"
+          },
+          {
+            "word": "𐴁𐴦𐴡𐴕𐴝",
+            "meaning": "Pawn"
+          },
+          {
+            "word": "𐴊𐴦𐴡",
+            "meaning": "Machete"
+          },
+          {
+            "word": "𐴁𐴦𐴝𐴊𐴠",
+            "meaning": "And"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Tossi (𐴧) – The Gemination Sign",
-    "icon": Icons.repeat,
+    "icon": "repeat",
     "content": [
       {
         "type": "info_card",
         "title": "Function of Tossi",
-        "content":
-            "In the Rohingya writing system, the Tossi serves an important orthographic function. Instead of writing the same consonant twice, the Tossi is placed above a single consonant to represent its doubled form. This makes writing more efficient and streamlines the visual appearance of words.",
+        "content": "\u00A0\u00A0\u00A0\u00A0In the Rohingya writing system, the Tossi serves an important orthographic function. Instead of writing the same consonant twice, the Tossi is placed above a single consonant to represent its doubled form. This makes writing more efficient and streamlines the visual appearance of words."
       },
       {
         "type": "table",
         "table": {
           "mainHeader": "Comparison: Without vs With Tossi",
           "headers": [
-            {"text": "Meaning", "direction": "ltr"},
-            {"text": "Without Tossi", "direction": "ltr"},
-            {"text": "With Tossi", "direction": "ltr"},
+            {
+              "text": "Meaning",
+              "direction": "ltr"
+            },
+            {
+              "text": "Without Tossi",
+              "direction": "ltr"
+            },
+            {
+              "text": "With Tossi",
+              "direction": "ltr"
+            }
           ],
           "rowsDirection": "rtl",
           "rows": [
             [
-              {"text": "Tin", "direction": "ltr"},
+              {
+                "text": "Tin",
+                "direction": "ltr"
+              },
               "𐴑𐴟𐴄𐴄𐴝",
-              "𐴑𐴟𐴄𐴧𐴝",
+              "𐴑𐴟𐴄𐴧𐴝"
             ],
             [
-              {"text": "Big brother", "direction": "ltr"},
+              {
+                "text": "Big brother",
+                "direction": "ltr"
+              },
               "𐴁𐴡𐴊𐴊𐴝",
-              "𐴁𐴡𐴊𐴧𐴝",
+              "𐴁𐴡𐴊𐴧𐴝"
             ],
             [
-              {"text": "Road", "direction": "ltr"},
+              {
+                "text": "Road",
+                "direction": "ltr"
+              },
               "𐴌𐴝𐴏𐴏𐴝",
-              "𐴌𐴝𐴏𐴧𐴝",
+              "𐴌𐴝𐴏𐴧𐴝"
             ],
             [
-              {"text": "Meat", "direction": "ltr"},
+              {
+                "text": "Meat",
+                "direction": "ltr"
+              },
               "𐴒𐴟𐴏𐴏𐴡",
-              "𐴒𐴟𐴏𐴧𐴡",
-            ],
-          ],
-        },
+              "𐴒𐴟𐴏𐴧𐴡"
+            ]
+          ]
+        }
       },
       {
         "type": "info_card",
         "title": "Practice",
-        "content": "Practice reading the following examples:",
+        "content": "Practice reading the following examples:"
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴁𐴞𐴊𐴧𐴝", "meaning": "Bidda (Knowledge)"},
-          {"word": "𐴉𐴥𐴠𐴖𐴧𐴝", "meaning": "Fewa (Cotton)"},
-          {"word": "𐴓𐴟𐴏𐴧𐴝𐴕", "meaning": "Lussan (Loss)"},
-          {"word": "𐴆𐴠𐴄𐴧𐴝", "meaning": "Fetta (Flat)"},
-          {"word": "𐴈𐴡𐴓𐴧𐴝", "meaning": "Kholla (Skin)"},
-        ],
+          {
+            "word": "𐴁𐴞𐴊𐴧𐴝",
+            "meaning": "Bidda (Knowledge)"
+          },
+          {
+            "word": "𐴉𐴥𐴠𐴖𐴧𐴝",
+            "meaning": "Fewa (Cotton)"
+          },
+          {
+            "word": "𐴓𐴟𐴏𐴧𐴝𐴕",
+            "meaning": "Lussan (Loss)"
+          },
+          {
+            "word": "𐴆𐴠𐴄𐴧𐴝",
+            "meaning": "Fetta (Flat)"
+          },
+          {
+            "word": "𐴈𐴡𐴓𐴧𐴝",
+            "meaning": "Kholla (Skin)"
+          }
+        ]
       },
       {
         "type": "note_card",
         "title": "Note",
-        "content":
-            "Tossi saves space and makes writing easier, but the pronunciation remains the same as if the letter was written twice.",
-      },
-    ],
+        "content": "Tossi saves space and makes writing easier, but the pronunciation remains the same as if the letter was written twice."
+      }
+    ]
   },
   {
     "title": "Kinna Wa (𐴗) / Small Wa",
-    "icon": Icons.text_fields,
+    "icon": "text_fields",
     "content": [
       {
         "type": "info_card",
         "title": "Usage of Kinna Wa",
-        "content":
-            "The Kinna Wa (𐴗) is used in the place where it seems to produce the Ufor sound. After Kinna Wa, you may add any vowel sign (Afor, Ifor, Efor, Ufor, or Ofor) depending on the word.",
+        "content": "\u00A0\u00A0\u00A0\u00A0The Kinna Wa (𐴗) is used in the place where it seems to produce the Ufor sound. After Kinna Wa, you may add any vowel sign (Afor, Ifor, Efor, Ufor, or Ofor) depending on the word."
       },
       {
         "type": "info_card",
         "title": "Rule in English",
-        "content":
-            "If any word ends with Wa (𐴖) and another alphabet follows, then you must use Kinna Wa (𐴗) instead of Waa (𐴖). There are only two specific positions where Waa (𐴖) can remain, but in all other cases you should use Kinna Wa (𐴗).",
+        "content": "\u00A0\u00A0\u00A0\u00A0If any word ends with Wa (𐴖) and another alphabet follows, then you must use Kinna Wa (𐴗) instead of Waa (𐴖). There are only two specific positions where Waa (𐴖) can remain, but in all other cases you should use Kinna Wa (𐴗)."
       },
       {
         "type": "note_card",
         "title": "Important",
-        "content":
-            "You can never place Ufor on the right side of Kinna Wa (𐴗).",
+        "content": "\u00A0\u00A0\u00A0\u00A0You can never place Ufor on the right side of Kinna Wa (𐴗)."
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴀𐴟𐴒𐴧𐴤𐴗𐴝", "meaning": "One"},
-          {"word": "𐴊𐴝𐴌𐴒𐴤𐴗𐴝", "meaning": "Firewood"},
-          {"word": "𐴁𐴤𐴝𐴌𐴒𐴤𐴗𐴝", "meaning": "Yoke"},
-          {"word": "𐴑𐴡𐴗𐴔", "meaning": "Community"},
-          {"word": "𐴇𐴥𐴡𐴗𐴌", "meaning": "Father-in-law"},
-          {"word": "𐴌𐴦𐴡𐴗𐴕", "meaning": "Garlic "},
-          {"word": "𐴊𐴡𐴗𐴃𐴢", "meaning": "Ring worm "},
-          {"word": "𐴄𐴤𐴡𐴗𐴌", "meaning": " Monk"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴀𐴟𐴒𐴧𐴤𐴗𐴝",
+            "meaning": "One"
+          },
+          {
+            "word": "𐴊𐴝𐴌𐴒𐴤𐴗𐴝",
+            "meaning": "Firewood"
+          },
+          {
+            "word": "𐴁𐴤𐴝𐴌𐴒𐴤𐴗𐴝",
+            "meaning": "Yoke"
+          },
+          {
+            "word": "𐴑𐴡𐴗𐴔",
+            "meaning": "Community"
+          },
+          {
+            "word": "𐴇𐴥𐴡𐴗𐴌",
+            "meaning": "Father-in-law"
+          },
+          {
+            "word": "𐴌𐴦𐴡𐴗𐴕",
+            "meaning": "Garlic "
+          },
+          {
+            "word": "𐴊𐴡𐴗𐴃𐴢",
+            "meaning": "Ring worm "
+          },
+          {
+            "word": "𐴄𐴤𐴡𐴗𐴌",
+            "meaning": " Monk"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Kinna Ya (𐴙) / Small Ya",
-    "icon": Icons.text_fields,
+    "icon": "text_fields",
     "content": [
       {
         "type": "info_card",
         "title": "What is Kinna Ya?",
-        "content":
-            "Kinna Ya (𐴙), also called Small Ya, is a small form of Ya. It is used when a word has a light “y” sound, similar to Ifor (𐴞), but not a full Ya sound. It does not work as a normal letter. Instead, it shows a soft joining sound inside a word. Kinna Ya is written after a letter, and then a vowel sign (Afor, Efor, Ufor, Ofor, etc.) is added.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Kinna Ya (𐴙), also called Small Ya, is a small form of Ya. It is used when a word has a light “y” sound, similar to Ifor (𐴞), but not a full Ya sound. It does not work as a normal letter. Instead, it shows a soft joining sound inside a word. Kinna Ya is written after a letter, and then a vowel sign (Afor, Efor, Ufor, Ofor, etc.) is added."
       },
       {
         "type": "info_card",
         "title": "Saakin Rule",
-        "content":
-            "When a letter becomes Saakin (no vowel sound) and there is a Ya sound just before it, you must use Kinna Ya (𐴙) instead of the normal Ya. This rule helps keep the spelling correct and the reading clear.",
+        "content": "\u00A0\u00A0\u00A0\u00A0When a letter becomes Saakin (no vowel sound) and there is a Ya sound just before it, you must use Kinna Ya (𐴙) instead of the normal Ya. This rule helps keep the spelling correct and the reading clear."
       },
       {
         "type": "note_card",
         "title": "Important Note",
-        "content":
-            "Ifor is never written on the right side of Kinna Ya (𐴙). Kinna Ya is mainly used to make reading smoother and to stop readers from getting confused, especially when reading fast. Learners must be careful not to confuse Kinna Ya (𐴙) with Long Ya (𐴘). They are different letters and they make different sounds.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Ifor is never written on the right side of Kinna Ya (𐴙). Kinna Ya is mainly used to make reading smoother and to stop readers from getting confused, especially when reading fast. Learners must be careful not to confuse Kinna Ya (𐴙) with Long Ya (𐴘). They are different letters and they make different sounds."
       },
       {
         "type": "info_card",
         "title": "Practice",
-        "content": "Read the following words and notice how Kinna Ya is used:",
+        "content": "Read the following words and notice how Kinna Ya is used:"
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴑𐴠𐴣𐴙𐴓𐴢", "meaning": "Waist"},
-          {"word": "𐴀𐴝𐴙𐴕𐴝", "meaning": "Mirror (Aina)"},
-          {"word": "𐴔𐴝𐴙𐴐𐴢", "meaning": "Month (Maish)"},
-          {"word": "𐴄𐴝𐴙𐴔", "meaning": "Time (Taim)"},
-          {"word": "𐴓𐴝𐴙𐴕", "meaning": "Line (Lain)"},
-          {"word": "𐴏𐴝𐴙𐴕", "meaning": "Sign (Sain)"},
-          {"word": "𐴔𐴝𐴙𐴓𐴢", "meaning": "Mile (Mile)"},
-          {"word": "𐴏𐴝𐴙𐴑𐴠𐴓𐴢", "meaning": "Cycle (Saikel)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴑𐴠𐴣𐴙𐴓𐴢",
+            "meaning": "Waist"
+          },
+          {
+            "word": "𐴀𐴝𐴙𐴕𐴝",
+            "meaning": "Mirror (Aina)"
+          },
+          {
+            "word": "𐴔𐴝𐴙𐴐𐴢",
+            "meaning": "Month (Maish)"
+          },
+          {
+            "word": "𐴄𐴝𐴙𐴔",
+            "meaning": "Time (Taim)"
+          },
+          {
+            "word": "𐴓𐴝𐴙𐴕",
+            "meaning": "Line (Lain)"
+          },
+          {
+            "word": "𐴏𐴝𐴙𐴕",
+            "meaning": "Sign (Sain)"
+          },
+          {
+            "word": "𐴔𐴝𐴙𐴓𐴢",
+            "meaning": "Mile (Mile)"
+          },
+          {
+            "word": "𐴏𐴝𐴙𐴑𐴠𐴓𐴢",
+            "meaning": "Cycle (Saikel)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Nga (𐴚)",
-    "icon": Icons.abc,
+    "icon": "abc",
     "content": [
       {
         "type": "info_card",
         "title": "What is Nga (𐴚)?",
-        "content":
-            "Nga (𐴚) is a special letter that makes the nasal sound /ŋ/. This is the same sound as the “ng” in the English word “sing.” It is used when the sound of Na-khonna (𐴣) naturally joins with Ga (𐴒) to form one smooth nasal sound.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Nga (𐴚) is a special letter that makes the nasal sound /ŋ/. This is the same sound as the “ng” in the English word “sing.” It is used when the sound of Na-khonna (𐴣) naturally joins with Ga (𐴒) to form one smooth nasal sound."
       },
       {
         "type": "info_card",
         "title": "Why Nga is Important ?",
-        "content":
-            "Nga (𐴚) is important because it keeps the correct nasal sound in words. Without Nga, a word may be read incorrectly, and its meaning can change. Using Nga helps make both reading and writing clear and accurate.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Nga (𐴚) is important because it keeps the correct nasal sound in words. Without Nga, a word may be read incorrectly, and its meaning can change. Using Nga helps make both reading and writing clear and accurate."
       },
       {
         "type": "info_card",
         "title": "Examples",
-        "content": "Read and practice the following words that use Nga (𐴚):",
+        "content": "Read and practice the following words that use Nga (𐴚):"
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴌𐴡𐴚", "meaning": "Rong (Color)"},
-          {"word": "𐴍𐴡𐴚", "meaning": "Dhong (Style)"},
-          {"word": "𐴄𐴤𐴠𐴚", "meaning": "Teng (Leg)"},
-          {"word": "𐴁𐴠𐴚", "meaning": "Beng (Frog)"},
-          {"word": "𐴐𐴞𐴚", "meaning": "Shing (Horn)"},
-          {"word": "𐴓𐴠𐴚", "meaning": "Leng (Cripple)"},
-        ],
-      },
-    ],
+          {
+            "word": "𐴌𐴡𐴚",
+            "meaning": "Rong (Color)"
+          },
+          {
+            "word": "𐴍𐴡𐴚",
+            "meaning": "Dhong (Style)"
+          },
+          {
+            "word": "𐴄𐴤𐴠𐴚",
+            "meaning": "Teng (Leg)"
+          },
+          {
+            "word": "𐴁𐴠𐴚",
+            "meaning": "Beng (Frog)"
+          },
+          {
+            "word": "𐴐𐴞𐴚",
+            "meaning": "Shing (Horn)"
+          },
+          {
+            "word": "𐴓𐴠𐴚",
+            "meaning": "Leng (Cripple)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Naiya (𐴛)",
-    "icon": Icons.abc,
+    "icon": "abc",
     "content": [
       {
         "type": "info_card",
         "title": "What is Naiya (𐴛)?",
-        "content":
-            "Naiya (𐴛) is a special letter that stands for the combined sound of Na-khonna (𐴣) and Ya (𐴘). Instead of writing both letters together, Naiya is used as a single sign. This makes words shorter, clearer, and easier to read.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Naiya (𐴛) is a special letter that stands for the combined sound of Na-khonna (𐴣) and Ya (𐴘). Instead of writing both letters together, Naiya is used as a single sign. This makes words shorter, clearer, and easier to read."
       },
       {
         "type": "info_card",
         "title": "Why is Naiya Used?",
-        "content":
-            "Naiya is used to simplify a common sound combination in Rohingya. By joining Na-khonna and Ya into one letter, it helps readers recognize the sound quickly and read more smoothly. It is an important and efficient feature of the Rohingya writing system.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Naiya is used to simplify a common sound combination in Rohingya. By joining Na-khonna and Ya into one letter, it helps readers recognize the sound quickly and read more smoothly. It is an important and efficient feature of the Rohingya writing system."
       },
       {
         "type": "info_card",
         "title": "Usage Examples",
-        "content":
-            "Read the following forms to see how Naiya is used with different vowels:",
+        "content": "\u00A0\u00A0\u00A0\u00A0Read the following forms to see how Naiya is used with different vowels:"
       },
-
       {
         "type": "vocabulary_grid",
         "items": [
-          {"word": "𐴑𐴞𐴛𐴥𐴟𐴌", "meaning": "Kuinyur (Jicama)"},
-          {"word": "𐴏𐴥𐴡𐴛", "meaning": "Soin (Bean)"},
-          {"word": "𐴈𐴝𐴛", "meaning": "Hain (Step)"},
-          {"word": "𐴑𐴦𐴟𐴛𐴌", "meaning": "Kuinr (Dog)"},
-          {"word": "𐴔𐴟𐴛", "meaning": "Muin (I)"},
-          {"word": "𐴈𐴡𐴛", "meaning": "Hoin (Popcorn)"},
-        ],
+          {
+            "word": "𐴑𐴞𐴛𐴥𐴟𐴌",
+            "meaning": "Kuinyur (Jicama)"
+          },
+          {
+            "word": "𐴏𐴥𐴡𐴛",
+            "meaning": "Soin (Bean)"
+          },
+          {
+            "word": "𐴈𐴝𐴛",
+            "meaning": "Hain (Step)"
+          },
+          {
+            "word": "𐴑𐴦𐴟𐴛𐴌",
+            "meaning": "Kuinr (Dog)"
+          },
+          {
+            "word": "𐴔𐴟𐴛",
+            "meaning": "Muin (I)"
+          },
+          {
+            "word": "𐴈𐴡𐴛",
+            "meaning": "Hoin (Popcorn)"
+          }
+        ]
       },
       {
         "type": "highlight_card",
         "title": "Practice Reading",
-        "content":
-            "𐴔𐴟𐴛 𐴎𐴝𐴤𐴛 𐴔𐴝𐴌𐴞 𐴈𐴡𐴛 𐴔𐴝𐴏 𐴊𐴤𐴡𐴌𐴞 𐴁𐴡𐴀𐴡𐴃 𐴊𐴞𐴕 𐴎𐴞𐴛𐴝𐴛 𐴏𐴥𐴡𐴛 𐴊𐴞 𐴌𐴝𐴣𐴊𐴤𐴞 𐴁𐴞𐴘𐴝𐴌𐴝𐴔𐴡𐴃 𐴑𐴟𐴣𐴖𐴝𐴛 𐴑𐴟𐴣𐴖𐴝𐴛 𐴈𐴥𐴝𐴘𐴧𐴡𐴔. 𐴑𐴠𐴓𐴝𐴊𐴞 𐴔𐴝𐴑𐴤𐴞 𐴈𐴥𐴡𐴛 𐴈𐴥𐴝𐴘 𐴁𐴡𐴓𐴧𐴝 𐴏𐴦𐴡𐴛 𐴒𐴡𐴌𐴥𐴞 𐴌𐴡𐴘𐴧𐴠𐴥. 𐴑𐴤𐴟𐴛 𐴀𐴥𐴡𐴑𐴧𐴡𐴓𐴠 𐴑𐴦𐴟𐴛𐴌 𐴊𐴤𐴡𐴌𐴞 𐴀𐴦𐴟𐴛𐴃𐴧𐴡𐴓𐴠 𐴁𐴝𐴣𐴊𐴤𐴞 𐴌𐴝𐴙𐴑𐴧𐴙𐴠. 𐴎𐴦𐴟𐴛𐴌 𐴔𐴝𐴃𐴤𐴝𐴃 𐴊𐴞 𐴁𐴤𐴟𐴛𐴧𐴡𐴃 𐴎𐴝𐴘 𐴑𐴞𐴛𐴟𐴥𐴌 𐴑𐴟𐴌𐴥𐴞 𐴀𐴝𐴕𐴒𐴤𐴡𐴘.",
-      },
-    ],
+        "content": "𐴔𐴟𐴛 𐴎𐴝𐴤𐴛 𐴔𐴝𐴌𐴞 𐴈𐴡𐴛 𐴔𐴝𐴏 𐴊𐴤𐴡𐴌𐴞 𐴁𐴡𐴀𐴡𐴃 𐴊𐴞𐴕 𐴎𐴞𐴛𐴝𐴛 𐴏𐴥𐴡𐴛 𐴊𐴞 𐴌𐴝𐴣𐴊𐴤𐴞 𐴁𐴞𐴘𐴝𐴌𐴝𐴔𐴡𐴃 𐴑𐴟𐴣𐴖𐴝𐴛 𐴑𐴟𐴣𐴖𐴝𐴛 𐴈𐴥𐴝𐴘𐴧𐴡𐴔. 𐴑𐴠𐴓𐴝𐴊𐴞 𐴔𐴝𐴑𐴤𐴞 𐴈𐴥𐴡𐴛 𐴈𐴥𐴝𐴘 𐴁𐴡𐴓𐴧𐴝 𐴏𐴦𐴡𐴛 𐴒𐴡𐴌𐴥𐴞 𐴌𐴡𐴘𐴧𐴠𐴥. 𐴑𐴤𐴟𐴛 𐴀𐴥𐴡𐴑𐴧𐴡𐴓𐴠 𐴑𐴦𐴟𐴛𐴌 𐴊𐴤𐴡𐴌𐴞 𐴀𐴦𐴟𐴛𐴃𐴧𐴡𐴓𐴠 𐴁𐴝𐴣𐴊𐴤𐴞 𐴌𐴝𐴙𐴑𐴧𐴙𐴠. 𐴎𐴦𐴟𐴛𐴌 𐴔𐴝𐴃𐴤𐴝𐴃 𐴊𐴞 𐴁𐴤𐴟𐴛𐴧𐴡𐴃 𐴎𐴝𐴘 𐴑𐴞𐴛𐴟𐴥𐴌 𐴑𐴟𐴌𐴥𐴞 𐴀𐴝𐴕𐴒𐴤𐴡𐴘."
+      }
+    ]
   },
-
   {
     "title": "Saakin",
-    "icon": Icons.block,
+    "icon": "block",
     "content": [
-      // {"type": "title", "content": "A. Saakin"},
       {
         "type": "info_card",
         "title": "What is Saakin?",
-        "content":
-            "Saakin means when one alphabet 'catches' another alphabet and the sound does not start again from the last alphabet. This is called Saakin. Saakin can be written in the middle or at the end of a word. Saakin cannot be written at the beginning of a word. In Rohingya, Saakin can be used continuously with two or more alphabets in the same word.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Saakin means when one alphabet 'catches' another alphabet and the sound does not start again from the last alphabet. This is called Saakin. Saakin can be written in the middle or at the end of a word. Saakin cannot be written at the beginning of a word. In Rohingya, Saakin can be used continuously with two or more alphabets in the same word."
       },
-      {"type": "title", "content": "Example of Saakin"},
-      {"type": "saakin_graphic"},
+      {
+        "type": "title",
+        "content": "Example of Saakin"
+      },
+      {
+        "type": "saakin_graphic"
+      },
       {
         "type": "info_card",
         "title": "Examples",
-        "content": "See how Saakin works in these words:",
+        "content": "See how Saakin works in these words:"
       },
       {
         "type": "vocabulary_grid",
         "items": [
-          //𐴉𐴝𐴕، 𐴔𐴠𐴏، 𐴈𐴡𐴓، 𐴏𐴟𐴓، 𐴕𐴡𐴑، 𐴋𐴤𐴠𐴏𐴑، 𐴂𐴥𐴝𐴌𐴑
-          {"word": "𐴉𐴝𐴕", "meaning": "fan (Betel)"},
-          {"word": "𐴔𐴠𐴏𐴢", "meaning": "Mes (Desk)"},
-          {"word": "𐴈𐴡𐴓", "meaning": "Hol (Trap)"},
-          {"word": "𐴏𐴟𐴓", "meaning": "Sul (Hair)"},
-          {"word": "𐴕𐴡𐴑", "meaning": "Nok (Nail)"},
-          {"word": "𐴔𐴝𐴏𐴢", "meaning": "Mas (Fish)"},
-        ],
-      },
-      // {"type": "title", "content": "Additional Exercise"},
-      // {
-      //   "type": "highlight_card",
-      //   "title": "A. Read, spell, and write:",
-      //   "content":
-      //       "𐴑𐴠𐴓𐴝𐴊𐴞 𐴔𐴝𐴑𐴤𐴞 𐴈𐴥𐴡𐴛 𐴈𐴥𐴝� 𐴁𐴡𐴓𐴧𐴝 𐴏𐴦𐴡𐴛 𐴒𐴡𐴌𐴥𐴞 𐴌𐴡𐴘𐴧𐴠𐴥.",
-      // },
-    ],
+          {
+            "word": "𐴉𐴝𐴕",
+            "meaning": "fan (Betel)"
+          },
+          {
+            "word": "𐴔𐴠𐴏𐴢",
+            "meaning": "Mes (Desk)"
+          },
+          {
+            "word": "𐴈𐴡𐴓",
+            "meaning": "Hol (Trap)"
+          },
+          {
+            "word": "𐴏𐴟𐴓",
+            "meaning": "Sul (Hair)"
+          },
+          {
+            "word": "𐴕𐴡𐴑",
+            "meaning": "Nok (Nail)"
+          },
+          {
+            "word": "𐴔𐴝𐴏𐴢",
+            "meaning": "Mas (Fish)"
+          }
+        ]
+      }
+    ]
   },
   {
     "title": "Grammar Related to Aa (𐴀)",
-    "icon": Icons.gavel,
+    "icon": "gavel",
     "content": [
       {
         "type": "info_card",
         "title": "Vowels & Saakin",
-        "content":
-            "In the Rohingya language, there are 28 alphabets. After each alphabet, there must be a vowel (𐴝, 𐴞, 𐴟, 𐴠, 𐴡) added. If no vowel is placed, then the alphabet becomes Saakin (silent).",
+        "content": "\u00A0\u00A0\u00A0\u00A0In the Rohingya language, there are 28 alphabets. After each alphabet, there must be a vowel (𐴝, 𐴞, 𐴟, 𐴠, 𐴡) added. If no vowel is placed, then the alphabet becomes Saakin (silent)."
       },
       {
         "type": "info_card",
         "title": "Aa (𐴀) vs Arabic Alif (ا)",
-        "content":
-            "The first alphabet, Aa (𐴀), is often confused with Arabic Alif (ا). In Arabic, letters like (ا، و، ي) function as alphabets or long/short sounds. However, in Rohingya, Aa (𐴀) acts ONLY as an alphabet.",
+        "content": "\u00A0\u00A0\u00A0\u00A0The first alphabet, Aa (𐴀), is often confused with Arabic Alif (ا). In Arabic, letters like (ا، و، ي) function as alphabets or long/short sounds. However, in Rohingya, Aa (𐴀) acts ONLY as an alphabet."
       },
       {
         "type": "note_card",
         "title": "Grammar Rule",
-        "content":
-            "Aa (𐴀) cannot be read with short or long sounds, nor does it function like the Arabic Alif. Reading it with a long voice is grammatically incorrect.",
+        "content": "\u00A0\u00A0\u00A0\u00A0Aa (𐴀) cannot be read with short or long sounds, nor does it function like the Arabic Alif. Reading it with a long voice is grammatically incorrect."
       },
       {
         "type": "table",
-        "headers": ["Meaning", "Correct Usage", "Incorrect Usage"],
+        "headers": [
+          "Meaning",
+          "Correct Usage",
+          "Incorrect Usage"
+        ],
         "rows": [
           [
             "Telling",
-            {"text": "𐴈𐴡𐴀𐴡𐴕", "direction": "rtl"},
-            {"text": "𐴈𐴡𐴀𐴕", "direction": "rtl"},
+            {
+              "text": "𐴈𐴡𐴀𐴡𐴕",
+              "direction": "rtl"
+            },
+            {
+              "text": "𐴈𐴡𐴀𐴕",
+              "direction": "rtl"
+            }
           ],
           [
             "Seeing",
-            {"text": "𐴏𐴡𐴀𐴡𐴕", "direction": "rtl"},
-            {"text": "𐴏𐴡𐴀𐴕", "direction": "rtl"},
+            {
+              "text": "𐴏𐴡𐴀𐴡𐴕",
+              "direction": "rtl"
+            },
+            {
+              "text": "𐴏𐴡𐴀𐴕",
+              "direction": "rtl"
+            }
           ],
           [
             "Singing",
-            {"text": "𐴒𐴡𐴀𐴡𐴕", "direction": "rtl"},
-            {"text": "𐴒𐴡𐴀𐴕", "direction": "rtl"},
+            {
+              "text": "𐴒𐴡𐴀𐴡𐴕",
+              "direction": "rtl"
+            },
+            {
+              "text": "𐴒𐴡𐴀𐴕",
+              "direction": "rtl"
+            }
           ],
           [
             "Giving",
-            {"text": "𐴊𐴡𐴀𐴡𐴕", "direction": "rtl"},
-            {"text": "𐴊𐴡𐴀𐴕", "direction": "rtl"},
-          ],
+            {
+              "text": "𐴊𐴡𐴀𐴡𐴕",
+              "direction": "rtl"
+            },
+            {
+              "text": "𐴊𐴡𐴀𐴕",
+              "direction": "rtl"
+            }
+          ]
         ],
-        "rowsDirection": "ltr",
+        "rowsDirection": "ltr"
       },
-      {"type": "title", "content": "Practice"},
+      {
+        "type": "title",
+        "content": "Practice"
+      },
       {
         "type": "highlight_card",
         "title": "Practice the following examples:",
-        "content":
-            "𐴉𐴡𐴀𐴡𐴕، 𐴈𐴥𐴡𐴀𐴡𐴕، 𐴄𐴡𐴀𐴡𐴕، 𐴓𐴡𐴀𐴡𐴕، 𐴎𐴡𐴀𐴡𐴕",
+        "content": "𐴉𐴡𐴀𐴡𐴕، 𐴈𐴥𐴡𐴀𐴡𐴕، 𐴄𐴡𐴀𐴡𐴕، 𐴓𐴡𐴀𐴡𐴕، 𐴎𐴡𐴀𐴡𐴕"
       },
-      {"type": "title", "content": "Additional Exercise"},
+      {
+        "type": "title",
+        "content": "Additional Exercise"
+      },
       {
         "type": "highlight_card",
         "title": "A. Find the correct words",
-        "content":
-            "Find the correct words from the following list and rewrite them in your exercise book:\n\n𐴐𐴠𐴀𐴌، 𐴎𐴞𐴀𐴞𐴕، 𐴐𐴠𐴀𐴠𐴌، 𐴓𐴡𐴀𐴕، 𐴉𐴡𐴀𐴕، 𐴓𐴡𐴀𐴡𐴕، 𐴉𐴡𐴀𐴡𐴕، 𐴎𐴞𐴀𐴕، 𐴈𐴥𐴡𐴀𐴕، 𐴎𐴞𐴀𐴕، 𐴊𐴡𐴀𐴕، 𐴈𐴡𐴀𐴡𐴕، 𐴊𐴡𐴀𐴡𐴕",
-      },
-    ],
+        "content": "Find the correct words from the following list and rewrite them in your exercise book:\n\n𐴐𐴠𐴀𐴌، 𐴎𐴞𐴀𐴞𐴕، 𐴐𐴠𐴀𐴠𐴌، 𐴓𐴡𐴀𐴕، 𐴉𐴡𐴀𐴕، 𐴓𐴡𐴀𐴡𐴕، 𐴉𐴡𐴀𐴡𐴕، 𐴎𐴞𐴀𐴕، 𐴈𐴥𐴡𐴀𐴕، 𐴎𐴞𐴀𐴕، 𐴊𐴡𐴀𐴕، 𐴈𐴡𐴀𐴡𐴕، 𐴊𐴡𐴀𐴡𐴕"
+      }
+    ]
   },
-
   {
     "title": "Rohingya National Anthem",
-    "icon": Icons.music_note,
+    "icon": "music_note",
     "content": [
       {
         "type": "anthem",
@@ -1722,77 +2500,71 @@ final List<Map<String, dynamic>> grammarLessons = [
         "title_english": "(Rohingya National Anthem)",
         "verses": [
           {
-            "rohingya":
-                "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴀𐴥𐴡𐴘𐴓𐴥𐴝𐴔 𐴌𐴟𐴇𐴝𐴙𐴚𐴒𐴙𐴝 𐴎𐴝𐴃𐴞",
-            "translation": "We are Rohingya,",
+            "rohingya": "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴀𐴥𐴡𐴘𐴓𐴥𐴝𐴔 𐴌𐴟𐴇𐴝𐴙𐴚𐴒𐴙𐴝 𐴎𐴝𐴃𐴞",
+            "translation": "We are Rohingya,"
           },
           {
-            "rohingya":
-                "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴀𐴝𐴌𐴑𐴝𐴕 𐴊𐴠𐴐𐴤𐴡𐴌 𐴈𐴥𐴝𐴄𐴤𐴞",
-            "translation": "We are truly from Arakan.",
+            "rohingya": "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴀𐴝𐴌𐴑𐴝𐴕 𐴊𐴠𐴐𐴤𐴡𐴌 𐴈𐴥𐴝𐴄𐴤𐴞",
+            "translation": "We are truly from Arakan."
           },
           {
             "rohingya": "𐴇𐴥𐴝𐴎𐴝𐴌 𐴁𐴡𐴏𐴥𐴡𐴌 𐴀𐴝𐴒𐴠 𐴓𐴡𐴃𐴞",
-            "translation": "For thousands of years,",
+            "translation": "For thousands of years,"
           },
           {
-            "rohingya":
-                "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴀𐴝𐴌𐴑𐴝𐴕 𐴃𐴠𐴐𐴤𐴡𐴃𐴢 𐴃𐴤𐴝𐴑𐴤𐴞",
-            "translation": "We have lived in Arakan State.",
+            "rohingya": "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴀𐴝𐴌𐴑𐴝𐴕 𐴃𐴠𐴐𐴤𐴡𐴃𐴢 𐴃𐴤𐴝𐴑𐴤𐴞",
+            "translation": "We have lived in Arakan State."
           },
           {
             "rohingya": "𐴔𐴟𐴌𐴥𐴝 𐴉𐴠𐴌𐴝 𐴈𐴝𐴍𐴞 𐴑𐴟𐴣𐴍𐴥𐴞",
-            "translation":
-                "By cleaning and caring for the land, the mountains and riverbanks,",
+            "translation": "By cleaning and caring for the land, the mountains and riverbanks,"
           },
           {
             "rohingya": "𐴌𐴟𐴇𐴝𐴚 𐴐𐴤𐴡𐴀𐴡𐴌 𐴀𐴝𐴁𐴝𐴊𐴢 𐴒𐴡𐴌𐴥𐴞",
-            "translation": "After rehabilitating the Rohang city,",
+            "translation": "After rehabilitating the Rohang city,"
           },
           {
             "rohingya": "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴒𐴡𐴙𐴓𐴧𐴥𐴝𐴔 𐴒𐴡𐴌𐴥𐴡 𐴁𐴝𐴌𐴞",
-            "translation": "We built homes and huts.",
+            "translation": "We built homes and huts."
           },
           {
-            "rohingya":
-                "𐴑𐴠𐴀𐴠𐴕𐴠 𐴎𐴝𐴘𐴧𐴥𐴟𐴔 𐴊𐴠𐴐𐴧𐴤𐴝𐴕 𐴏𐴥𐴝𐴌𐴥𐴞",
-            "translation": "How can we ever leave our country?",
+            "rohingya": "𐴑𐴠𐴀𐴠𐴕𐴠 𐴎𐴝𐴘𐴧𐴥𐴟𐴔 𐴊𐴠𐴐𐴧𐴤𐴝𐴕 𐴏𐴥𐴝𐴌𐴥𐴞",
+            "translation": "How can we ever leave our country?"
           },
           {
             "rohingya": "𐴀𐴝𐴌𐴑𐴝𐴕 𐴊𐴠𐴐𐴤𐴡𐴌 𐴐𐴤𐴟𐴕𐴝𐴌 𐴔𐴠𐴍𐴞",
-            "translation": "O golden soil of Arakan,",
+            "translation": "O golden soil of Arakan,"
           },
           {
             "rohingya": "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴃𐴡𐴌𐴥𐴠 𐴀𐴝𐴊𐴡𐴌 𐴒𐴡𐴌𐴥𐴞",
-            "translation": "We love you deeply.",
+            "translation": "We love you deeply."
           },
           {
             "rohingya": "𐴃𐴤𐴝𐴑𐴤𐴞𐴘𐴧𐴥𐴟𐴔 𐴃𐴡𐴌 𐴁𐴟𐴑𐴡𐴃𐴢 𐴁𐴝𐴎𐴤𐴞",
-            "translation": "We will live within your heart,",
+            "translation": "We will live within your heart,"
           },
           {
-            "rohingya":
-                "𐴃𐴡𐴌𐴥𐴠 𐴉𐴥𐴠𐴓𐴥𐴝𐴘 𐴃𐴤𐴝𐴀𐴝𐴘 𐴕𐴡 𐴉𐴝𐴌𐴥𐴞",
-            "translation": "We cannot live without you.",
+            "rohingya": "𐴃𐴡𐴌𐴥𐴠 𐴉𐴥𐴠𐴓𐴥𐴝𐴘 𐴃𐴤𐴝𐴀𐴝𐴘 𐴕𐴡 𐴉𐴝𐴌𐴥𐴞",
+            "translation": "We cannot live without you."
           },
           {
             "rohingya": "𐴈𐴡𐴃𐴡 𐴉𐴡𐴌𐴝𐴕 𐴐𐴤𐴡𐴇𐴞𐴊𐴢 𐴒𐴡𐴌𐴥𐴞",
-            "translation": "By sacrificing many lives,",
+            "translation": "By sacrificing many lives,"
           },
           {
             "rohingya": "𐴃𐴡𐴌 𐴁𐴝𐴒𐴝𐴕𐴡𐴃𐴢 𐴉𐴝𐴕𐴥𐴞 𐴊𐴞𐴘𐴧𐴥𐴞",
-            "translation": "By watering your garden with our tears,",
+            "translation": "By watering your garden with our tears,"
           },
           {
             "rohingya": "𐴀𐴝𐴣𐴀𐴝𐴌𐴥𐴝 𐴀𐴠𐴒𐴤𐴟𐴕 𐴀𐴝𐴐𐴤𐴝 𐴌𐴝𐴑𐴤𐴞",
-            "translation": "We keep our hope alive",
+            "translation": "We keep our hope alive"
           },
           {
             "rohingya": "𐴃𐴟𐴘 𐴈𐴡𐴕𐴥𐴡 𐴊𐴞𐴕 𐴕𐴡 𐴉𐴡𐴀𐴡𐴌𐴥𐴝𐴁𐴞",
-            "translation": "That you will never forget us.",
-          },
-        ],
-      },
-    ],
-  },
-];
+            "translation": "That you will never forget us."
+          }
+        ]
+      }
+    ]
+  }
+]
