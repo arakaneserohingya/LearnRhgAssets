@@ -2419,8 +2419,8 @@
         "type": "table",
         "headers": [
           "Meaning",
-          "Correct Usage",
-          "Incorrect Usage"
+          "Incorrect Usage",
+          "Correct Usage"
         ],
         "rows": [
           [
