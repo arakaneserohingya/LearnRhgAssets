@@ -1165,7 +1165,7 @@
             "meaning": "DaDa(Grandfather)"
           },
           {
-            "word": "𐴏𐴝𐴏𐴝",
+            "word": "𐴏𐴝𐴣𐴏𐴝",
             "meaning": "SaSa(Uncle)"
           },
           {
@@ -1189,7 +1189,7 @@
             "meaning": "Fata(Leaf)"
           },
           {
-            "word": "𐴇𐴝𐴓𐴝",
+            "word": "𐴈𐴝𐴓𐴝",
             "meaning": "Hala(Black)"
           }
         ]
@@ -1281,11 +1281,11 @@
             "meaning": "Nani (Grandmother)"
           },
           {
-            "word": "𐴉𐴝𐴕𐴞",
+            "word": "𐴉𐴝𐴕𐴥𐴞",
             "meaning": "Fani (Water)"
           },
           {
-            "word": "𐴏𐴞𐴕𐴞",
+            "word": "𐴏𐴞𐴕𐴥𐴞",
             "meaning": "Sini (Sugar)"
           },
           {
@@ -1297,7 +1297,7 @@
             "meaning": "Zibon (Life)"
           },
           {
-            "word": "𐴒𐴝𐴌𐴞",
+            "word": "𐴒𐴝𐴌𐴥𐴞",
             "meaning": "Gari (Car)"
           },
           {
@@ -1305,7 +1305,7 @@
             "meaning": "Tita (Bitter)"
           },
           {
-            "word": "𐴏𐴝𐴁𐴞",
+            "word": "𐴏𐴝𐴁𐴤𐴞",
             "meaning": "Sabi (Key)"
           },
           {
@@ -1397,11 +1397,11 @@
             "meaning": "Duk (Sorrow)"
           },
           {
-            "word": "𐴒𐴟𐴔",
+            "word": "𐴒𐴤𐴟𐴔",
             "meaning": "Gum (Sleep)"
           },
           {
-            "word": "𐴉𐴟𐴓",
+            "word": "𐴉𐴥𐴟𐴓",
             "meaning": "Ful (Flower)"
           },
           {
@@ -1425,7 +1425,7 @@
             "meaning": "Goru (Cow)"
           },
           {
-            "word": "𐴑𐴟𐴌𐴝",
+            "word": "𐴑𐴟𐴌𐴥𐴝",
             "meaning": "Kura (Chicken)"
           },
           {
@@ -1517,7 +1517,7 @@
             "meaning": "Ek (One)"
           },
           {
-            "word": "𐴊𐴠𐴏𐴢",
+            "word": "𐴊𐴠𐴐𐴢",
             "meaning": "Des (Country)"
           },
           {
@@ -1529,7 +1529,7 @@
             "meaning": "Tel (Oil)"
           },
           {
-            "word": "𐴁𐴠𐴓",
+            "word": "𐴁𐴠𐴀𐴠𐴓",
             "meaning": "Bel (Bell)"
           },
           {
@@ -1545,7 +1545,7 @@
             "meaning": "Bera (Fence)"
           },
           {
-            "word": "𐴉𐴠𐴕𐴝",
+            "word": "𐴉𐴠𐴥𐴕𐴝",
             "meaning": "Fena (Foam)"
           },
           {
@@ -1665,7 +1665,7 @@
             "meaning": "Kholi (Bud)"
           },
           {
-            "word": "𐴋𐴡𐴓𐴝",
+            "word": "𐴊𐴤𐴡𐴓𐴝",
             "meaning": "Dhola (White)"
           },
           {
@@ -1723,7 +1723,7 @@
         "type": "vocabulary_grid",
         "items": [
           {
-            "word": "𐴉𐴝𐴤𐴣𐴏𐴢",
+            "word": "𐴉𐴝𐴣𐴏𐴢",
             "meaning": "Fañs (Five)"
           },
           {
@@ -1731,7 +1731,7 @@
             "meaning": "Kaiñl (Waist)"
           },
           {
-            "word": "𐴀𐴝𐴦𐴣𐴍𐴡𐴤𐴕",
+            "word": "𐴀𐴝𐴥𐴣𐴍𐴡𐴤𐴕",
             "meaning": "Añron (Walk)"
           },
           {
@@ -2208,7 +2208,7 @@
             "meaning": "Waist"
           },
           {
-            "word": "𐴀𐴝𐴙𐴕𐴝",
+            "word": "𐴀𐴝𐴘𐴕𐴝",
             "meaning": "Mirror (Aina)"
           },
           {
@@ -2224,7 +2224,7 @@
             "meaning": "Line (Lain)"
           },
           {
-            "word": "𐴏𐴝𐴙𐴕",
+            "word": "𐴏𐴥𐴝𐴀𐴝𐴙𐴕",
             "meaning": "Sign (Sain)"
           },
           {
@@ -2278,7 +2278,7 @@
             "meaning": "Beng (Frog)"
           },
           {
-            "word": "𐴐𐴞𐴚",
+            "word": "𐴐𐴥𐴞𐴚",
             "meaning": "Shing (Horn)"
           },
           {
