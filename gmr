@@ -2396,10 +2396,10 @@
       }
     ]
   },
-  {
-    "title": "Grammar Related to Aa (𐴀) Saakin",
-    "icon": "gavel",
-    "content": [
+ {
+    "__comment__title": "Grammar Related to Aa (𐴀) Saakin",
+    "__comment__icon": "gavel",
+    "__comment__content": [
       {
         "type": "info_card",
         "title": "Vowels & Saakin",
