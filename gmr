@@ -2345,57 +2345,86 @@
     ]
   },
   {
-    "title": "Saakin",
-    "icon": "block",
-    "content": [
-      {
-        "type": "info_card",
-        "title": "What is Saakin?",
-        "content": "\u00A0\u00A0\u00A0\u00A0Saakin means when one alphabet 'catches' another alphabet and the sound does not start again from the last alphabet. This is called Saakin. Saakin can be written in the middle or at the end of a word. Saakin cannot be written at the beginning of a word. In Rohingya, Saakin can be used continuously with two or more alphabets in the same word."
-      },
-      {
-        "type": "title",
-        "content": "Example of Saakin"
-      },
-      {
-        "type": "saakin_graphic"
-      },
-      {
-        "type": "info_card",
-        "title": "Examples",
-        "content": "See how Saakin works in these words:"
-      },
-      {
-        "type": "vocabulary_grid",
-        "items": [
-          {
-            "word": "𐴉𐴝𐴕",
-            "meaning": "fan (Betel)"
-          },
-          {
-            "word": "𐴔𐴠𐴏𐴢",
-            "meaning": "Mes (Desk)"
-          },
-          {
-            "word": "𐴈𐴡𐴓",
-            "meaning": "Hol (Trap)"
-          },
-          {
-            "word": "𐴏𐴟𐴓",
-            "meaning": "Sul (Hair)"
-          },
-          {
-            "word": "𐴕𐴡𐴑",
-            "meaning": "Nok (Nail)"
-          },
-          {
-            "word": "𐴔𐴝𐴏𐴢",
-            "meaning": "Mas (Fish)"
-          }
-        ]
-      }
-    ]
-  },
+  "title": "Saakin",
+  "icon": "block",
+  "content": [
+    {
+      "type": "info_card",
+      "title": "What is Saakin?",
+      "content": "\u00A0\u00A0\u00A0\u00A0Saakin means when one alphabet 'catches' another alphabet and the sound does not start again from the last alphabet. This is called Saakin. Saakin can be written in the middle or at the end of a word. Saakin cannot be written at the beginning of a word. In Rohingya, Saakin can be used continuously with two or more alphabets in the same word."
+    },
+    {
+      "type": "title",
+      "content": "Example of Saakin"
+    },
+    {
+      "type": "saakin_graphic"
+    },
+    {
+      "type": "title",
+      "content": "The Hidden Rule"
+    },
+    {
+      "type": "info_card",
+      "title": "Why is the mark sometimes hidden?",
+      "content": "You will notice a difference in the examples below. Some letters keep the Saakin mark (𐴢) at the end, while others hide it. This is based on the **shape** of the letter."
+    },
+    {
+      "type": "expandable_list",
+      "title": "The Tent vs. House Rule",
+      "items": [
+        {
+          "icon": "⛺",
+          "title": "The Windy Tents (Light Letters)",
+          "description": "Letters like Sa (𐴏), Ba (𐴁), and Ta (𐴃) are simple curves. They look like light tents. If you leave them at the end of a word without a mark, they look unstable.\n\n**Rule:** We MUST use the Saakin (𐴢) like a 'peg' to pin them down."
+        },
+        {
+          "icon": "🏠",
+          "title": "The Heavy Houses (Strong Letters)",
+          "description": "Letters like Na (𐴕), Ka (𐴑), and La (𐴓) have complex loops and knots. They are like heavy brick houses. They stand solid on their own.\n\n**Rule:** We DO NOT write the Saakin because the shape is already strong enough."
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "content": "Practice Examples"
+    },
+    {
+      "type": "info_card",
+      "title": "Spot the Difference",
+      "content": "See how Saakin works in these words. Notice which ones need the mark (Tent) and which ones don't (House):"
+    },
+    {
+      "type": "vocabulary_grid",
+      "items": [
+        {
+          "word": "𐴉𐴝𐴕",
+          "meaning": "fan (Betel) - [House: No Mark]"
+        },
+        {
+          "word": "𐴔𐴠𐴏𐴢",
+          "meaning": "Mes (Desk) - [Tent: Has Mark]"
+        },
+        {
+          "word": "𐴈𐴡𐴓",
+          "meaning": "Hol (Trap) - [House: No Mark]"
+        },
+        {
+          "word": "𐴏𐴟𐴓",
+          "meaning": "Sul (Hair) - [House: No Mark]"
+        },
+        {
+          "word": "𐴕𐴡𐴑",
+          "meaning": "Nok (Nail) - [House: No Mark]"
+        },
+        {
+          "word": "𐴔𐴝𐴏𐴢",
+          "meaning": "Mas (Fish) - [Tent: Has Mark]"
+        }
+      ]
+    }
+  ]
+},
 
   {
     "title": "Rohingya National Anthem",
