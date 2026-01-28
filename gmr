@@ -1689,27 +1689,27 @@
         "type": "equation_grid",
         "items": [
           {
-            "part1": "𐴀 (A)",
+            "part1": "𐴀𐴝 (A)",
             "part2": "𐴣 (Na-khonna)",
-            "result": "𐴀𐴣 (Aŋ)",
+            "result": "𐴀𐴝𐴣 (Aŋ)",
             "meaning": "Meaning: Aŋ "
           },
           {
-            "part1": "𐴁 (Ba)",
+            "part1": "𐴁𐴝 (Ba)",
             "part2": "𐴣 (Na-khonna)",
-            "result": "𐴁𐴣 (Baŋ)",
+            "result": "𐴁𐴝𐴣 (Baŋ)",
             "meaning": "Meaning: Baŋ "
           },
           {
             "part1": "𐴓 (La)",
             "part2": "𐴣 (Na-khonna)",
-            "result": "𐴓𐴣 (Laŋ)",
+            "result": "𐴓𐴝𐴣 (Laŋ)",
             "meaning": "Meaning: Laŋ "
           },
           {
             "part1": "𐴎 (Za)",
             "part2": "𐴣 (Na-khonna)",
-            "result": "𐴎𐴣 (Zaŋ)",
+            "result": "𐴎𐴝𐴣 (Zaŋ)",
             "meaning": "Meaning: Zaŋ "
           }
         ]
@@ -1725,6 +1725,22 @@
           {
             "word": "𐴉𐴝𐴣𐴏𐴢",
             "meaning": "Fañs (Five)"
+          },
+          {
+            "word": "𐴑𐴟𐴣𐴍𐴝",
+            "meaning": "Kuñra (Hook)"
+          },
+          {
+            "word": "𐴈𐴝𐴣𐴎𐴞",
+            "meaning": "Hañzi (Judge)"
+          },
+          {
+            "word": "𐴐𐴟𐴣𐴍𐴝",
+            "meaning": "Shuñra (Cigarette)"
+          },
+            {
+            "word": "𐴒𐴟𐴣𐴍𐴝",
+            "meaning": "Guñra (Full)"
           },
           {
             "word": "𐴑𐴠𐴣𐴙𐴓𐴢",
