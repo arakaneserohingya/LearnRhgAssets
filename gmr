@@ -1950,33 +1950,33 @@
         "type": "equation_grid",
         "items": [
           {
-            "part1": "𐴁 (Ba)",
+            "part1": "𐴁𐴝 (Ba)",
             "part2": "𐴦 (Thaana)",
-            "result": "𐴁𐴦 (Baa)",
+            "result": "𐴁𐴦𐴝 (Baa)",
             "meaning": "Meaning: Baa"
           },
           {
-            "part1": "𐴃 (Ta)",
+            "part1": "𐴃𐴝 (Ta)",
             "part2": "𐴦 (Thaana)",
-            "result": "𐴃𐴦 (Taa)",
+            "result": "𐴃𐴦𐴝 (Taa)",
             "meaning": "Meaning: Taa"
           },
           {
-            "part1": "𐴏 (Sa)",
+            "part1": "𐴏𐴝 (Sa)",
             "part2": "𐴦 (Thaana)",
-            "result": "𐴏𐴦 (Saa)",
+            "result": "𐴏𐴦𐴝 (Saa)",
             "meaning": "Meaning: Saa"
           },
           {
-            "part1": "𐴔 (Ma)",
+            "part1": "𐴔𐴝 (Ma)",
             "part2": "𐴦 (Thaana)",
-            "result": "𐴔𐴦 (Maa)",
+            "result": "𐴔𐴦𐴝 (Maa)",
             "meaning": "Meaning: Maa"
           },
           {
-            "part1": "𐴓 (La)",
+            "part1": "𐴓𐴝 (La)",
             "part2": "𐴦 (Thaana)",
-            "result": "𐴓𐴦 (Laa)",
+            "result": "𐴓𐴦𐴝 (Laa)",
             "meaning": "Meaning: Laa"
           }
         ]
@@ -2010,7 +2010,7 @@
             "meaning": "Tender"
           },
           {
-            "word": "𐴎𐴦𐴡𐴣𐴓",
+            "word": "𐴎𐴡𐴣𐴓𐴢",
             "meaning": "Bush"
           },
           {
@@ -2159,6 +2159,14 @@
           {
             "word": "𐴀𐴟𐴒𐴧𐴤𐴗𐴝",
             "meaning": "One"
+          },
+          {
+            "word": "𐴑𐴠𐴏𐴧𐴗𐴝",
+            "meaning": "Earthworm"
+          },
+        {
+            "word": "𐴉𐴝𐴄𐴧𐴗𐴝",
+            "meaning": "Jute Rope"
           },
           {
             "word": "𐴊𐴝𐴌𐴒𐴤𐴗𐴝",
